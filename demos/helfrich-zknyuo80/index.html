@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>DEMO | Gregory Helfrich Construction Inc. | Flooring in Lower Bucks County, PA</title>
+<meta name="description" content="DEMO MOCKUP. Flooring, roofing, siding, windows and general construction in lower Bucks County, PA. Call (555) 555-0100 [placeholder].">
+<script>document.documentElement.classList.add("js")</script>
+<style>
+@font-face{font-family:'Barlow';font-weight:400;font-style:normal;font-display:swap;src:url('fonts/Barlow-400.ttf') format('truetype')}
+@font-face{font-family:'Barlow';font-weight:500;font-style:normal;font-display:swap;src:url('fonts/Barlow-500.ttf') format('truetype')}
+@font-face{font-family:'Barlow';font-weight:600;font-style:normal;font-display:swap;src:url('fonts/Barlow-600.ttf') format('truetype')}
+@font-face{font-family:'Barlow';font-weight:700;font-style:normal;font-display:swap;src:url('fonts/Barlow-700.ttf') format('truetype')}
+@font-face{font-family:'Barlow Condensed';font-weight:600;font-style:normal;font-display:swap;src:url('fonts/BarlowCondensed-600.ttf') format('truetype')}
+@font-face{font-family:'Barlow Condensed';font-weight:700;font-style:normal;font-display:swap;src:url('fonts/BarlowCondensed-700.ttf') format('truetype')}
+@font-face{font-family:'Barlow Condensed';font-weight:800;font-style:normal;font-display:swap;src:url('fonts/BarlowCondensed-800.ttf') format('truetype')}
+
+:root{--ink:#14211E;--forest:#1F3A34;--forest2:#2A4A42;--oak:#D08A3C;--oak-d:#B5722B;--cream:#F6F1E8;--sand:#EBE3D3;--slate:#5B6B66;--line:rgba(31,58,52,.16);--white:#fff;--head:'Barlow Condensed','Arial Narrow',Arial,sans-serif;--body:'Barlow',Arial,Helvetica,sans-serif;--r:16px;--banner:44px;--hdr:64px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--banner) + var(--hdr) + 8px)}
+body{margin:0;font-family:var(--body);color:var(--ink);background:var(--cream);font-size:17px;line-height:1.55;-webkit-text-size-adjust:100%;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--head);line-height:1.02;margin:0;letter-spacing:.2px}
+.wrap{width:100%;max-width:1160px;margin:0 auto;padding:0 20px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 26px;border-radius:12px;font-family:var(--head);font-weight:700;font-size:21px;letter-spacing:.6px;text-transform:uppercase;text-decoration:none;border:2px solid transparent;cursor:pointer;transition:transform .15s,box-shadow .15s,background .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn-oak{background:var(--oak);color:var(--ink);box-shadow:0 10px 26px rgba(208,138,60,.35)}
+.btn-oak:hover{background:#DE9A4C}
+.btn-ghost{border-color:rgba(255,255,255,.55);color:#fff}
+.btn-ghost:hover{background:rgba(255,255,255,.1)}
+.btn-dark{background:var(--forest);color:#fff}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid var(--oak);outline-offset:2px}
+/* demo banner */
+.demo{position:sticky;top:0;z-index:60;background:#111;color:#fff;font-size:13.5px;line-height:1.3;text-align:center;padding:8px 14px;min-height:var(--banner);display:flex;align-items:center;justify-content:center;font-weight:600}
+.demo b{color:var(--oak)}
+/* header */
+.top{position:sticky;top:var(--banner);z-index:50;background:rgba(246,241,232,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;height:var(--hdr);gap:12px}
+.brand{min-height:44px;display:flex;align-items:center;gap:10px;text-decoration:none;min-width:0}
+.logo{height:40px;width:auto;flex:none}
+.draftlogo{font-size:10px;line-height:1.1;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:#7a4a10;background:#fbe7c8;border:1px dashed var(--oak-d);border-radius:6px;padding:3px 6px;white-space:nowrap}
+.top nav{display:none;gap:22px}
+.top nav a.lg{display:none}
+@media (min-width:1080px){.top nav a.lg{display:inline}}
+.top nav a{font-weight:600;text-decoration:none;font-size:16px;padding:10px 2px}
+.top nav a:hover{color:var(--oak-d)}
+.hcall{display:none}
+/* hero */
+.hero{background:radial-gradient(1200px 500px at 85% -10%,#2f574d 0%,transparent 60%),linear-gradient(160deg,var(--forest) 0%,var(--ink) 100%);color:#fff;padding:34px 0 46px}
+.hero-grid{display:grid;gap:30px}
+.eyebrow{display:inline-block;font-family:var(--head);font-weight:700;font-size:16px;letter-spacing:2px;text-transform:uppercase;color:var(--oak);margin-bottom:12px}
+.hero h1{font-size:clamp(46px,13vw,86px);font-weight:800;text-transform:uppercase}
+.hero h1 em{font-style:normal;color:var(--oak)}
+.hero p.lead{font-size:19px;color:#E5ECE9;margin:18px 0 26px;max-width:560px}
+.cta{display:flex;flex-direction:column;gap:12px}
+.hero small.note{display:block;margin-top:14px;color:#B9C7C2;font-size:14px}
+.photo{position:relative;border-radius:var(--r);overflow:hidden;background:var(--forest2);box-shadow:0 24px 50px rgba(0,0,0,.35)}
+.photo img{width:100%;height:100%;object-fit:cover}
+.hero .photo{aspect-ratio:4/3}
+.stock{position:absolute;left:10px;bottom:10px;background:rgba(0,0,0,.72);color:#fff;font-size:11px;font-weight:700;letter-spacing:.4px;padding:4px 8px;border-radius:6px;line-height:1.2}
+/* trust bar */
+.trustbar{background:var(--oak);color:var(--ink)}
+.trustbar ul{list-style:none;margin:0;padding:14px 20px;display:grid;grid-template-columns:1fr 1fr;gap:10px 14px;max-width:1160px;margin:0 auto}
+.trustbar li{font-family:var(--head);font-weight:700;font-size:19px;letter-spacing:.5px;text-transform:uppercase;display:flex;align-items:center;gap:8px;line-height:1.1}
+.trustbar svg{flex:none;width:22px;height:22px}
+/* sections */
+.section{padding:62px 0}
+.section h2{font-size:clamp(36px,8vw,56px);font-weight:800;text-transform:uppercase;color:var(--forest)}
+.section .sub{color:var(--slate);margin:12px 0 32px;max-width:640px}
+.kicker{font-family:var(--head);font-weight:700;font-size:16px;letter-spacing:2px;text-transform:uppercase;color:var(--oak-d);margin-bottom:8px;display:block}
+/* services */
+.svc-grid{display:grid;gap:18px}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;box-shadow:0 8px 24px rgba(20,33,30,.06)}
+.card .photo{border-radius:0;box-shadow:none;aspect-ratio:3/2}
+.card .body{padding:20px 20px 24px;display:flex;flex-direction:column;gap:8px;flex:1}
+.card h3{font-size:32px;font-weight:800;text-transform:uppercase;color:var(--forest)}
+.card p{margin:0;color:#3a4744}
+.card .more{margin-top:auto;padding-top:10px;font-weight:700;color:var(--oak-d);text-decoration:none;min-height:44px;display:inline-flex;align-items:center}
+.card.feat{background:linear-gradient(160deg,var(--forest) 0%,var(--ink) 100%);color:#fff;border:0;position:relative}
+.card.feat .body{padding:28px 24px 30px;gap:12px}
+.card.feat h3{color:#fff;font-size:clamp(44px,10vw,64px)}
+.card.feat p{color:#DDE7E3;font-size:18px}
+.card.feat .tag{align-self:flex-start;background:var(--oak);color:var(--ink);font-family:var(--head);font-weight:800;font-size:15px;letter-spacing:1.5px;text-transform:uppercase;padding:4px 12px;border-radius:999px}
+.card.feat .planks{display:grid;gap:7px;margin:10px 0 6px}
+.card.feat .planks i{display:block;height:14px;border-radius:3px;background:var(--oak)}
+.card.feat .planks i:nth-child(2){width:78%;margin-left:14%;background:#E9D9BC}
+.card.feat .planks i:nth-child(3){width:62%}
+.card.feat .planks i:nth-child(4){width:40%;margin-left:30%;background:#E9D9BC}
+.card.feat .more{color:var(--oak)}
+/* how */
+.how{background:var(--sand)}
+.steps{display:grid;gap:16px;counter-reset:s;margin-top:8px}
+.step{background:#fff;border-radius:var(--r);padding:22px 22px 24px;border:1px solid var(--line);position:relative}
+.step:before{counter-increment:s;content:counter(s);font-family:var(--head);font-weight:800;font-size:48px;line-height:1;color:var(--oak);display:block;margin-bottom:6px}
+.step h3{font-size:30px;font-weight:800;text-transform:uppercase;color:var(--forest)}
+.step p{margin:6px 0 0;color:#3a4744}
+/* gallery */
+.gal{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.gal .tile{position:relative;border-radius:14px;overflow:hidden;aspect-ratio:1/1;background:repeating-linear-gradient(135deg,#E6DDC8 0 14px,#EFE8D8 14px 28px);border:1px dashed var(--oak-d);display:flex;align-items:center;justify-content:center;text-align:center;padding:12px}
+.gal .tile.has{border:0;padding:0}
+.gal .tile.has img{width:100%;height:100%;object-fit:cover}
+.gal .ph{font-family:var(--head);font-weight:700;font-size:19px;color:var(--forest);text-transform:uppercase;letter-spacing:.5px;line-height:1.1}
+.gal .ph small{display:block;font-family:var(--body);font-weight:700;font-size:11px;color:#7a4a10;letter-spacing:.4px;margin-top:6px;text-transform:none}
+.gal .tile .stock{left:8px;bottom:8px}
+/* reviews */
+.reviews .box{border:2px dashed var(--oak-d);border-radius:var(--r);background:#fff;padding:30px 22px;text-align:center}
+.reviews .box strong{display:block;font-family:var(--head);font-size:34px;font-weight:800;text-transform:uppercase;color:var(--forest)}
+.reviews .box p{margin:8px auto 0;max-width:520px;color:var(--slate)}
+.phtag{display:inline-block;background:#fbe7c8;color:#7a4a10;border:1px dashed var(--oak-d);border-radius:6px;font-size:12px;font-weight:700;padding:3px 8px;margin-top:12px}
+/* areas */
+.areas{background:var(--forest);color:#fff}
+.areas h2{color:#fff}
+.areas .sub{color:#C9D6D1}
+.areas .pill{display:inline-block;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.25);border-radius:999px;padding:10px 20px;font-family:var(--head);font-weight:700;font-size:24px;letter-spacing:.5px;text-transform:uppercase}
+.areas .sub a{color:var(--oak);font-weight:700;white-space:nowrap;display:inline-flex;align-items:center;min-height:44px}
+/* quote */
+.quote-grid{display:grid;gap:26px}
+.quote .formbox{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:24px 20px;box-shadow:0 14px 34px rgba(20,33,30,.08);position:relative}
+.demoflag{background:#111;color:#fff;font-size:12.5px;font-weight:700;border-radius:8px;padding:8px 12px;margin-bottom:16px;line-height:1.3}
+.quote label{display:block;font-weight:700;font-size:14.5px;margin:12px 0 5px;color:var(--forest)}
+.quote input,.quote select,.quote textarea{width:100%;min-height:50px;border:1.5px solid #c9c2b0;border-radius:10px;padding:12px 14px;font:inherit;background:#fff;color:var(--ink)}
+.quote textarea{min-height:100px;resize:vertical}
+.quote .btn{width:100%;margin-top:18px}
+.direct{display:grid;gap:12px;align-content:start}
+.direct a.line{display:flex;align-items:center;gap:14px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 18px;text-decoration:none;min-height:64px}
+.direct a.line b{display:block;font-family:var(--head);font-size:30px;line-height:1;color:var(--forest);letter-spacing:.3px;overflow-wrap:anywhere}
+.direct a.line span{font-size:13.5px;color:var(--slate);font-weight:600}
+.direct svg{flex:none;width:30px;height:30px;color:var(--oak-d)}
+/* footer */
+.ft{background:var(--ink);color:#C9D6D1;padding:46px 0 26px}
+.ft .logo{height:46px}
+.ft .grid{display:grid;gap:28px}
+.ft h4{font-family:var(--head);color:#fff;font-size:22px;letter-spacing:1.2px;text-transform:uppercase;margin:0 0 10px}
+.ft a{text-decoration:none;display:inline-flex;align-items:center;min-height:44px}
+.ft a:hover{color:var(--oak)}
+.ft .fine{border-top:1px solid rgba(255,255,255,.14);margin-top:30px;padding-top:18px;font-size:13px;color:#9fb0aa}
+.hic{display:inline-block;background:#fbe7c8;color:#5a3708;border:1px dashed var(--oak-d);border-radius:6px;padding:3px 8px;font-weight:700;font-size:13px}
+
+/* ===== v2 polish ===== */
+section[id]{scroll-margin-top:calc(var(--banner) + 60px)}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+.top{transition:box-shadow .25s,background .25s}
+.top .wrap{transition:height .25s}
+.logo{transition:height .25s}
+.top.sm{box-shadow:0 8px 24px rgba(20,33,30,.12)}
+.top.sm .wrap{height:54px}
+.top.sm .logo{height:32px}
+.prog{position:fixed;left:0;top:0;height:3px;width:0;background:var(--oak);z-index:80;transition:width .1s linear}
+.btn:active{transform:translateY(0) scale(.97)}
+.card{transition:transform .25s,box-shadow .25s}
+.card:hover{transform:translateY(-4px);box-shadow:0 18px 38px rgba(20,33,30,.14)}
+.card .photo img{transition:transform .5s}
+.card:hover .photo img{transform:scale(1.04)}
+.step{transition:transform .25s,box-shadow .25s}
+.step:hover{transform:translateY(-3px);box-shadow:0 12px 26px rgba(20,33,30,.1)}
+.top nav a{position:relative}
+.top nav a{min-width:44px;text-align:center}
+.top nav a:after{content:"";position:absolute;left:2px;right:2px;bottom:4px;height:2px;background:var(--oak);transform:scaleX(0);transition:transform .2s}
+.top nav a:hover:after,.top nav a.on:after{transform:scaleX(1)}
+html.js .rv{opacity:0;transform:translateY(22px)}
+@media (prefers-reduced-motion:no-preference){html.js .rv{transition:opacity .6s ease,transform .6s ease}html.js .rv.d1{transition-delay:.08s}html.js .rv.d2{transition-delay:.16s}html.js .rv.d3{transition-delay:.24s}}
+html.js .rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){html.js .rv{opacity:1;transform:none}}
+.nextstep{display:flex;flex-wrap:wrap;align-items:center;gap:12px 18px;margin-top:34px;padding-top:22px;border-top:1px solid var(--line)}
+.nextstep span{font-family:var(--head);font-weight:700;font-size:20px;letter-spacing:.4px;text-transform:uppercase;color:var(--slate)}
+.nextstep .btn{min-height:48px;font-size:19px}
+.areas .nextstep{border-color:rgba(255,255,255,.2)}
+.areas .nextstep span{color:#C9D6D1}
+.hero .scrollcue{display:inline-flex;align-items:center;gap:8px;margin-top:6px;min-height:44px;color:#E5ECE9;font-weight:600;text-decoration:underline;text-underline-offset:4px;text-decoration-color:rgba(255,255,255,.4)}
+.hero .scrollcue:hover{color:var(--oak)}
+/* tools */
+.tools{background:var(--sand)}
+.tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:0 0 18px}
+.tab{min-height:60px;border-radius:14px;border:2px solid transparent;background:#fff;font:inherit;font-family:var(--head);font-weight:800;font-size:19px;letter-spacing:.5px;text-transform:uppercase;color:var(--forest);cursor:pointer;line-height:1.05;padding:6px 6px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;transition:background .2s,color .2s,transform .15s}
+.tab small{font-family:var(--body);font-size:11.5px;font-weight:700;text-transform:none;letter-spacing:0;color:var(--slate)}
+.tab:hover{transform:translateY(-2px)}
+.tab[aria-selected=true]{background:var(--forest);color:#fff;border-color:var(--forest)}
+.tab[aria-selected=true] small{color:#C9D6D1}
+.panel{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:22px 18px;box-shadow:0 14px 34px rgba(20,33,30,.08)}
+.panel[hidden]{display:none}
+.panel h3{font-size:34px;font-weight:800;text-transform:uppercase;color:var(--forest);display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+.panel .lede{color:var(--slate);margin:8px 0 18px}
+.dtag{font-family:var(--body);font-size:11px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;background:#111;color:#fff;border-radius:6px;padding:3px 8px}
+.rooms{display:grid;gap:12px}
+.room{display:grid;grid-template-columns:1fr 1fr;gap:8px;background:var(--cream);border:1px solid var(--line);border-radius:12px;padding:12px}
+.room .nm{grid-column:1/-1}
+.room label,.fld label{display:block;font-weight:700;font-size:13.5px;margin:0 0 4px;color:var(--forest)}
+.room .rm{grid-column:1/-1;justify-self:end;min-height:44px;min-width:44px;border:0;background:transparent;color:#9a3b2a;font-weight:700;font:inherit;font-weight:700;cursor:pointer;border-radius:10px;padding:0 12px}
+.room .rm:hover{background:#f6dcd6}
+.tools input[type=text],.tools input[type=number],.tools textarea,.quote input,.quote select,.quote textarea{width:100%;min-height:50px;border:1.5px solid #c9c2b0;border-radius:10px;padding:12px 14px;font:inherit;background:#fff;color:var(--ink)}
+.tools textarea{min-height:90px;resize:vertical}
+.btn-line{background:#fff;border:2px solid var(--forest);color:var(--forest)}
+.btn-line:hover{background:var(--forest);color:#fff}
+.btn.sm{min-height:48px;font-size:18px;padding:0 20px}
+.rowbtns{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.result{margin-top:18px;background:linear-gradient(160deg,var(--forest),var(--ink));color:#fff;border-radius:14px;padding:20px}
+.result .big{font-family:var(--head);font-weight:800;font-size:clamp(44px,12vw,64px);line-height:1}
+.result .big small{font-size:.4em;font-weight:700;letter-spacing:1px;color:#C9D6D1;text-transform:uppercase}
+.result .rowr{display:flex;flex-wrap:wrap;gap:18px 34px}
+.result .waste{color:var(--oak)}
+.result p{margin:12px 0 0;color:#DDE7E3;font-size:15.5px}
+.warn{color:#9a3b2a;font-weight:700;font-size:14px;margin-top:8px}
+.q{margin:0 0 18px;border:0;padding:0;min-width:0}
+.q legend{font-weight:700;color:var(--forest);margin-bottom:8px;font-size:16px}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.opts label{position:relative}
+.opts input{position:absolute;opacity:0;inset:0;width:100%;height:100%;cursor:pointer;margin:0}
+.opts span{display:inline-flex;align-items:center;min-height:46px;padding:0 16px;border-radius:999px;border:1.5px solid #c9c2b0;background:#fff;font-weight:600;font-size:15.5px;transition:background .15s,border-color .15s,color .15s}
+.opts input:checked+span{background:var(--forest);border-color:var(--forest);color:#fff}
+.opts input:focus-visible+span{outline:3px solid var(--oak);outline-offset:2px}
+.opts label:hover span{border-color:var(--forest)}
+.picks{display:grid;gap:12px;margin-top:6px}
+.pick{border:1px solid var(--line);border-left:6px solid var(--oak);border-radius:12px;padding:14px 16px;background:var(--cream)}
+.pick.ask{border-left-color:#b9b2a0;background:#f3efe6}
+.pick b{font-family:var(--head);font-size:26px;text-transform:uppercase;color:var(--forest);display:block;line-height:1.1}
+.pick .tg{font-size:12px;font-weight:700;color:#7a4a10;text-transform:uppercase;letter-spacing:.5px}
+.pick p{margin:6px 0 0;font-size:15.5px;color:#3a4744}
+.fine2{font-size:13.5px;color:var(--slate);margin-top:14px}
+.chk{list-style:none;margin:0 0 6px;padding:0;display:grid;gap:8px}
+.chk label{display:flex;gap:12px;align-items:flex-start;min-height:52px;padding:12px 14px;background:var(--cream);border:1px solid var(--line);border-radius:12px;cursor:pointer;font-weight:600;line-height:1.35}
+.chk label small{display:block;font-weight:500;color:var(--slate);font-size:13.5px}
+.chk input{width:24px;height:24px;margin:1px 0 0;accent-color:var(--forest);flex:none}
+.chk label:has(input:checked){background:#e7efe9;border-color:#9fc0b0}
+.pbar{height:10px;border-radius:999px;background:#e3dccb;overflow:hidden;margin:6px 0 16px}
+.pbar i{display:block;height:100%;width:0;background:var(--oak);transition:width .3s}
+.fld{margin:14px 0 0}
+.tools .sumbox{width:100%;min-height:230px;margin-top:14px;font:13.5px/1.5 ui-monospace,Menlo,Consolas,monospace;background:#fbfaf6;border:1.5px dashed #b9b2a0;border-radius:10px;padding:12px;color:var(--ink);resize:vertical}
+.toast{font-weight:700;color:#1d6b43;min-height:24px;margin-top:8px}
+/* faq */
+.faq details{background:#fff;border:1px solid var(--line);border-radius:14px;margin-bottom:10px;overflow:hidden}
+.faq summary{list-style:none;cursor:pointer;min-height:56px;padding:14px 52px 14px 18px;font-weight:700;font-size:17px;position:relative;display:flex;align-items:center}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:after{content:"+";position:absolute;right:18px;top:50%;transform:translateY(-50%);font-size:28px;font-weight:600;color:var(--oak-d);transition:transform .2s}
+.faq details[open] summary:after{transform:translateY(-50%) rotate(45deg)}
+.faq details[open]{border-color:var(--oak)}
+.faq .ans{padding:0 18px 18px;color:#3a4744}
+.formtools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:4px 0 6px}
+@media (min-width:720px){.panel{padding:30px 32px}.room{grid-template-columns:2fr 1fr 1fr auto;align-items:end}.room .nm{grid-column:auto}.room .rm{grid-column:auto;justify-self:auto}.tab{font-size:22px;flex-direction:row;gap:10px}.tab small{font-size:13px}.picks{grid-template-columns:repeat(3,1fr)}}
+
+/* callbar */
+.callbar{position:fixed;left:0;right:0;bottom:0;z-index:55;display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:rgba(20,33,30,.96)}
+.callbar a{min-height:52px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-family:var(--head);font-weight:800;font-size:21px;letter-spacing:.6px;text-transform:uppercase;text-decoration:none}
+.callbar .c{background:var(--oak);color:var(--ink)}
+.callbar .e{background:transparent;border:2px solid rgba(255,255,255,.5);color:#fff}
+.ft{padding-bottom:calc(26px + 76px + env(safe-area-inset-bottom))}
+@media (min-width:720px){
+  .cta{flex-direction:row}
+  .svc-grid{grid-template-columns:repeat(2,1fr)}
+  .card.feat{grid-column:1/-1;flex-direction:row}
+  .card.feat .body{flex:1.2;padding:40px}
+  .card.feat .aside{flex:.8;display:flex;align-items:center;padding:30px 40px 30px 0}
+  .card.feat .aside .planks{width:100%}
+  .steps{grid-template-columns:repeat(3,1fr)}
+  .gal{grid-template-columns:repeat(3,1fr)}
+  .trustbar ul{grid-template-columns:repeat(4,1fr)}
+}
+@media (min-width:900px){
+  :root{--hdr:76px}
+  body{font-size:18px}
+  .ft{padding-bottom:26px}
+  .callbar{display:none}
+  .top nav{display:flex}
+  .hcall{display:inline-flex;min-height:46px;font-size:19px;padding:0 20px}
+  .logo{height:48px}
+  .hero{padding:64px 0 76px}
+  .hero-grid{grid-template-columns:1.05fr .95fr;align-items:center;gap:56px}
+  .hero .photo{aspect-ratio:5/4}
+  .svc-grid{grid-template-columns:repeat(2,1fr)}
+  .quote-grid{grid-template-columns:1.1fr .9fr;gap:40px}
+  .ft .grid{grid-template-columns:1.4fr 1fr 1fr}
+  .section{padding:84px 0}
+}
+@media (max-width:420px){.top .wrap{padding:0 14px}.logo{height:34px}.top .draftlogo{font-size:9px;padding:3px 5px}}
+@media (min-width:421px) and (max-width:899px){.top .brand .draftlogo{font-size:9.5px}}
+.aplanks{display:none}
+.aplanks i{display:block;height:20px;border-radius:4px;background:var(--oak)}
+.aplanks i:nth-child(2n){background:#E9D9BC;width:78%;margin-left:14%}
+.aplanks i:nth-child(3){width:62%}
+.aplanks i:nth-child(5){width:84%}
+@media (min-width:900px){.areagrid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}.aplanks{display:grid;gap:9px;opacity:.9}}
+.aside{display:none}
+@media (min-width:720px){.aside{display:flex}}
+.feat .planks.m{display:grid}
+@media (min-width:720px){.feat .planks.m{display:none}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<div class="demo" role="note"><span><b>DEMO MOCKUP</b> for Gregory Helfrich Construction Inc. Not a live site. Photos are placeholders.</span></div>
+
+<div class="prog" id="prog" aria-hidden="true"></div>
+<header class="top" id="hdr">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Gregory Helfrich Construction Inc., home">
+      <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 296 88" role="img" aria-label="Gregory Helfrich Construction Inc. (draft logo concept)">
+<title>Gregory Helfrich Construction Inc. - draft logo concept</title>
+<rect x="4" y="12" width="64" height="64" rx="10" fill="#1F3A34"/>
+<rect x="12" y="26" width="40" height="9" rx="2" fill="#D08A3C"/>
+<rect x="24" y="39" width="32" height="9" rx="2" fill="#F6F1E8"/>
+<rect x="12" y="52" width="26" height="9" rx="2" fill="#D08A3C"/>
+<rect x="42" y="52" width="14" height="9" rx="2" fill="#F6F1E8"/>
+<path d="M93.11 11.399999999999999H101.346Q101.636 11.399999999999999 101.839 11.602999999999998Q102.042 11.805999999999997 102.042 12.095999999999997V51.304Q102.042 51.594 101.839 51.797Q101.636 52.0 101.346 52.0H93.11Q92.82 52.0 92.61699999999999 51.797Q92.414 51.594 92.414 51.304V36.108Q92.414 35.818 92.124 35.818H87.94800000000001Q87.658 35.818 87.658 36.108V51.304Q87.658 51.594 87.455 51.797Q87.252 52.0 86.962 52.0H78.726Q78.436 52.0 78.233 51.797Q78.03 51.594 78.03 51.304V12.095999999999997Q78.03 11.805999999999997 78.233 11.602999999999998Q78.436 11.399999999999999 78.726 11.399999999999999H86.962Q87.252 11.399999999999999 87.455 11.602999999999998Q87.658 11.805999999999997 87.658 12.095999999999997V27.233999999999998Q87.658 27.523999999999997 87.94800000000001 27.523999999999997H92.124Q92.414 27.523999999999997 92.414 27.233999999999998V12.095999999999997Q92.414 11.805999999999997 92.61699999999999 11.602999999999998Q92.82 11.399999999999999 93.11 11.399999999999999Z M129.12 19.635999999999996H117.46200000000002Q117.17200000000001 19.635999999999996 117.17200000000001 19.925999999999995V27.233999999999998Q117.17200000000001 27.523999999999997 117.46200000000002 27.523999999999997H123.84200000000001Q124.132 27.523999999999997 124.33500000000001 27.726999999999997Q124.53800000000001 27.93 124.53800000000001 28.22V35.122Q124.53800000000001 35.412 124.33500000000001 35.614999999999995Q124.132 35.818 123.84200000000001 35.818H117.46200000000002Q117.17200000000001 35.818 117.17200000000001 36.108V43.474000000000004Q117.17200000000001 43.763999999999996 117.46200000000002 43.763999999999996H129.12Q129.41000000000003 43.763999999999996 129.613 43.967Q129.816 44.17 129.816 44.46V51.304Q129.816 51.594 129.613 51.797Q129.41000000000003 52.0 129.12 52.0H108.24000000000001Q107.95000000000002 52.0 107.74700000000001 51.797Q107.54400000000001 51.594 107.54400000000001 51.304V12.095999999999997Q107.54400000000001 11.805999999999997 107.74700000000001 11.602999999999998Q107.95000000000002 11.399999999999999 108.24000000000001 11.399999999999999H129.12Q129.41000000000003 11.399999999999999 129.613 11.602999999999998Q129.816 11.805999999999997 129.816 12.095999999999997V18.939999999999998Q129.816 19.229999999999997 129.613 19.432999999999996Q129.41000000000003 19.635999999999996 129.12 19.635999999999996Z M134.622 51.304V12.095999999999997Q134.622 11.805999999999997 134.82500000000002 11.602999999999998Q135.02800000000002 11.399999999999999 135.318 11.399999999999999H143.554Q143.84400000000002 11.399999999999999 144.04700000000003 11.602999999999998Q144.25 11.805999999999997 144.25 12.095999999999997V43.474000000000004Q144.25 43.763999999999996 144.54000000000002 43.763999999999996H156.372Q156.662 43.763999999999996 156.865 43.967Q157.068 44.17 157.068 44.46V51.304Q157.068 51.594 156.865 51.797Q156.662 52.0 156.372 52.0H135.318Q135.02800000000002 52.0 134.82500000000002 51.797Q134.622 51.594 134.622 51.304Z M183.044 19.635999999999996H171.38600000000002Q171.096 19.635999999999996 171.096 19.925999999999995V27.233999999999998Q171.096 27.523999999999997 171.38600000000002 27.523999999999997H177.76600000000002Q178.056 27.523999999999997 178.25900000000001 27.726999999999997Q178.46200000000002 27.93 178.46200000000002 28.22V35.122Q178.46200000000002 35.412 178.25900000000001 35.614999999999995Q178.056 35.818 177.76600000000002 35.818H171.38600000000002Q171.096 35.818 171.096 36.108V51.304Q171.096 51.594 170.89300000000003 51.797Q170.69000000000003 52.0 170.4 52.0H162.16400000000002Q161.87400000000002 52.0 161.67100000000002 51.797Q161.46800000000002 51.594 161.46800000000002 51.304V12.095999999999997Q161.46800000000002 11.805999999999997 161.67100000000002 11.602999999999998Q161.87400000000002 11.399999999999999 162.16400000000002 11.399999999999999H183.044Q183.334 11.399999999999999 183.537 11.602999999999998Q183.74 11.805999999999997 183.74 12.095999999999997V18.939999999999998Q183.74 19.229999999999997 183.537 19.432999999999996Q183.334 19.635999999999996 183.044 19.635999999999996Z M202.756 51.42 198.812 36.05Q198.75400000000002 35.818 198.52200000000002 35.818H197.65200000000002Q197.36200000000002 35.818 197.36200000000002 36.108V51.304Q197.36200000000002 51.594 197.15900000000002 51.797Q196.95600000000002 52.0 196.666 52.0H188.43Q188.14000000000001 52.0 187.937 51.797Q187.734 51.594 187.734 51.304V12.095999999999997Q187.734 11.805999999999997 187.937 11.602999999999998Q188.14000000000001 11.399999999999999 188.43 11.399999999999999H200.9Q204.264 11.399999999999999 206.87400000000002 12.994999999999997Q209.484 14.589999999999996 210.90500000000003 17.461Q212.32600000000002 20.331999999999997 212.32600000000002 23.985999999999997Q212.32600000000002 27.233999999999998 211.137 29.814999999999998Q209.948 32.396 207.80200000000002 33.962Q207.686 34.019999999999996 207.628 34.107Q207.57 34.194 207.62800000000001 34.31L212.616 51.188L212.674 51.42Q212.674 52.0 212.036 52.0H203.568Q202.93 52.0 202.756 51.42ZM197.36200000000002 19.925999999999995V28.162Q197.36200000000002 28.451999999999998 197.65200000000002 28.451999999999998H199.276Q200.842 28.451999999999998 201.77 27.291999999999998Q202.698 26.131999999999998 202.698 24.102Q202.698 21.956 201.77 20.796Q200.842 19.635999999999996 199.276 19.635999999999996H197.65200000000002Q197.36200000000002 19.635999999999996 197.36200000000002 19.925999999999995Z M217.132 51.304V12.095999999999997Q217.132 11.805999999999997 217.335 11.602999999999998Q217.538 11.399999999999999 217.828 11.399999999999999H226.064Q226.354 11.399999999999999 226.55700000000002 11.602999999999998Q226.76 11.805999999999997 226.76 12.095999999999997V51.304Q226.76 51.594 226.55700000000002 51.797Q226.354 52.0 226.064 52.0H217.828Q217.538 52.0 217.335 51.797Q217.132 51.594 217.132 51.304Z M231.798 40.574V22.767999999999997Q231.798 17.315999999999995 235.10399999999998 14.125999999999998Q238.41 10.936 243.92 10.936Q249.43 10.936 252.76500000000001 14.125999999999998Q256.1 17.315999999999995 256.1 22.767999999999997V23.29Q256.1 23.58 255.897 23.782999999999998Q255.694 23.985999999999997 255.404 23.985999999999997L247.168 24.334Q246.472 24.334 246.472 23.637999999999998V22.072Q246.472 20.738 245.776 19.955Q245.08 19.171999999999997 243.92 19.171999999999997Q242.818 19.171999999999997 242.122 19.955Q241.426 20.738 241.426 22.072V41.385999999999996Q241.426 42.662 242.122 43.445Q242.818 44.228 243.92 44.228Q245.08 44.228 245.776 43.445Q246.472 42.662 246.472 41.385999999999996V39.704Q246.472 39.414 246.675 39.211Q246.878 39.007999999999996 247.168 39.007999999999996L255.404 39.356Q255.694 39.356 255.897 39.559Q256.1 39.762 256.1 40.052V40.574Q256.1 45.968 252.76500000000001 49.216Q249.43 52.464 243.92 52.464Q238.41 52.464 235.10399999999998 49.216Q231.798 45.968 231.798 40.574Z M276.10200000000003 11.399999999999999H284.338Q284.62800000000004 11.399999999999999 284.831 11.602999999999998Q285.034 11.805999999999997 285.034 12.095999999999997V51.304Q285.034 51.594 284.831 51.797Q284.62800000000004 52.0 284.338 52.0H276.10200000000003Q275.812 52.0 275.60900000000004 51.797Q275.406 51.594 275.406 51.304V36.108Q275.406 35.818 275.11600000000004 35.818H270.94Q270.65000000000003 35.818 270.65000000000003 36.108V51.304Q270.65000000000003 51.594 270.447 51.797Q270.244 52.0 269.954 52.0H261.718Q261.428 52.0 261.225 51.797Q261.022 51.594 261.022 51.304V12.095999999999997Q261.022 11.805999999999997 261.225 11.602999999999998Q261.428 11.399999999999999 261.718 11.399999999999999H269.954Q270.244 11.399999999999999 270.447 11.602999999999998Q270.65000000000003 11.805999999999997 270.65000000000003 12.095999999999997V27.233999999999998Q270.65000000000003 27.523999999999997 270.94 27.523999999999997H275.11600000000004Q275.406 27.523999999999997 275.406 27.233999999999998V12.095999999999997Q275.406 11.805999999999997 275.60900000000004 11.602999999999998Q275.812 11.399999999999999 276.10200000000003 11.399999999999999Z" fill="#1F3A34"/>
+<path d="M77.8512 72.5496V68.7952Q77.8512 67.7312 78.3224 66.9256Q78.7936 66.12 79.66 65.67920000000001Q80.5264 65.2384 81.6664 65.2384Q82.7912 65.2384 83.6576 65.664Q84.524 66.0896 84.9952 66.8648Q85.4664 67.64 85.4664 68.6584Q85.4664 68.7344 85.41319999999999 68.7876Q85.36 68.8408 85.284 68.8408L83.8856 68.9168Q83.7032 68.9168 83.7032 68.7496Q83.7032 67.8528 83.1484 67.3056Q82.5936 66.7584 81.6664 66.7584Q80.7392 66.7584 80.1768 67.3056Q79.6144 67.8528 79.6144 68.7496V72.6256Q79.6144 73.5072 80.1768 74.0544Q80.7392 74.6016 81.6664 74.6016Q82.5936 74.6016 83.1484 74.06200000000001Q83.7032 73.5224 83.7032 72.6256Q83.7032 72.4584 83.8856 72.4584L85.284 72.5192Q85.36 72.5192 85.41319999999999 72.56479999999999Q85.4664 72.6104 85.4664 72.6712Q85.4664 73.7048 84.9952 74.4876Q84.524 75.2704 83.6576 75.696Q82.7912 76.1216 81.6664 76.1216Q80.5264 76.1216 79.66 75.67320000000001Q78.7936 75.2248 78.3224 74.4192Q77.8512 73.6136 77.8512 72.5496Z M90.2928 72.4128V68.9472Q90.2928 67.8528 90.7792 67.00919999999999Q91.26559999999999 66.1656 92.1396 65.702Q93.0136 65.2384 94.1536 65.2384Q95.30879999999999 65.2384 96.18279999999999 65.702Q97.0568 66.1656 97.54319999999998 67.00919999999999Q98.02959999999999 67.8528 98.02959999999999 68.9472V72.4128Q98.02959999999999 73.5224 97.54319999999998 74.37360000000001Q97.0568 75.2248 96.18279999999999 75.6884Q95.30879999999999 76.152 94.1536 76.152Q93.0136 76.152 92.132 75.6884Q91.2504 75.2248 90.7716 74.37360000000001Q90.2928 73.5224 90.2928 72.4128ZM96.26639999999999 72.4736V68.932Q96.26639999999999 67.944 95.68879999999999 67.3512Q95.1112 66.7584 94.1536 66.7584Q93.21119999999999 66.7584 92.6336 67.3512Q92.056 67.944 92.056 68.932V72.4736Q92.056 73.4464 92.6336 74.0392Q93.21119999999999 74.632 94.1536 74.632Q95.1112 74.632 95.68879999999999 74.0392Q96.26639999999999 73.4464 96.26639999999999 72.4736Z M109.55919999999999 65.36H110.9576Q111.03359999999999 65.36 111.0868 65.41319999999999Q111.14 65.4664 111.14 65.5424V75.8176Q111.14 75.8936 111.0868 75.9468Q111.03359999999999 76.0 110.9576 76.0H109.6048Q109.4528 76.0 109.392 75.8784L105.0144 68.704Q104.984 68.6584 104.9536 68.666Q104.9232 68.6736 104.9232 68.7344L104.9536 75.8176Q104.9536 75.8936 104.90039999999999 75.9468Q104.8472 76.0 104.7712 76.0H103.3728Q103.29679999999999 76.0 103.24359999999999 75.9468Q103.1904 75.8936 103.1904 75.8176V65.5424Q103.1904 65.4664 103.24359999999999 65.41319999999999Q103.29679999999999 65.36 103.3728 65.36H104.7256Q104.8776 65.36 104.9384 65.4816L109.3008 72.656Q109.3312 72.7016 109.3616 72.694Q109.392 72.6864 109.392 72.6256L109.3768 65.5424Q109.3768 65.4664 109.43 65.41319999999999Q109.4832 65.36 109.55919999999999 65.36Z M116.08800000000001 73.0664V72.6864Q116.08800000000001 72.6104 116.1412 72.5572Q116.1944 72.504 116.27040000000001 72.504H117.6232Q117.6992 72.504 117.7524 72.5572Q117.8056 72.6104 117.8056 72.6864V72.9752Q117.8056 73.6744 118.4288 74.138Q119.052 74.6016 120.1312 74.6016Q121.0584 74.6016 121.5296 74.2064Q122.0008 73.8112 122.0008 73.188Q122.0008 72.7624 121.7424 72.46600000000001Q121.48400000000001 72.1696 121.0052 71.9264Q120.52640000000001 71.6832 119.56880000000001 71.3184Q118.48960000000001 70.9232 117.8208 70.5736Q117.152 70.224 116.7036 69.62360000000001Q116.2552 69.0232 116.2552 68.1264Q116.2552 66.7888 117.22800000000001 66.0136Q118.2008 65.2384 119.8272 65.2384Q120.9672 65.2384 121.84120000000001 65.6336Q122.71520000000001 66.0288 123.20160000000001 66.7356Q123.688 67.44239999999999 123.688 68.3696V68.628Q123.688 68.704 123.63480000000001 68.7572Q123.58160000000001 68.8104 123.5056 68.8104H122.1376Q122.0616 68.8104 122.0084 68.7572Q121.9552 68.704 121.9552 68.628V68.4608Q121.9552 67.7464 121.37 67.2524Q120.7848 66.7584 119.7512 66.7584Q118.9152 66.7584 118.4516 67.108Q117.988 67.4576 117.988 68.096Q117.988 68.55199999999999 118.2312 68.8408Q118.4744 69.1296 118.9608 69.3652Q119.44720000000001 69.6008 120.46560000000001 69.9656Q121.54480000000001 70.376 122.19080000000001 70.71039999999999Q122.83680000000001 71.0448 123.30040000000001 71.64519999999999Q123.76400000000001 72.2456 123.76400000000001 73.1424Q123.76400000000001 74.5104 122.7532 75.316Q121.7424 76.1216 119.9944 76.1216Q118.8088 76.1216 117.9272 75.7416Q117.04560000000001 75.3616 116.5668 74.6776Q116.08800000000001 73.9936 116.08800000000001 73.0664Z M135.9168 65.5424V66.7128Q135.9168 66.7888 135.86360000000002 66.842Q135.81040000000002 66.8952 135.7344 66.8952H132.9376Q132.8616 66.8952 132.8616 66.9712V75.8176Q132.8616 75.8936 132.8084 75.9468Q132.7552 76.0 132.6792 76.0H131.2808Q131.2048 76.0 131.1516 75.9468Q131.0984 75.8936 131.0984 75.8176V66.9712Q131.0984 66.8952 131.0224 66.8952H128.332Q128.256 66.8952 128.2028 66.842Q128.1496 66.7888 128.1496 66.7128V65.5424Q128.1496 65.4664 128.2028 65.41319999999999Q128.256 65.36 128.332 65.36H135.7344Q135.81040000000002 65.36 135.86360000000002 65.41319999999999Q135.9168 65.4664 135.9168 65.5424Z M146.504 75.8632 144.4976 71.4856Q144.4672 71.4248 144.4064 71.4248H142.5824Q142.5064 71.4248 142.5064 71.5008V75.8176Q142.5064 75.8936 142.4532 75.9468Q142.4 76.0 142.324 76.0H140.9256Q140.8496 76.0 140.7964 75.9468Q140.7432 75.8936 140.7432 75.8176V65.5424Q140.7432 65.4664 140.7964 65.41319999999999Q140.8496 65.36 140.9256 65.36H145.1056Q146.0328 65.36 146.74720000000002 65.7476Q147.4616 66.1352 147.85680000000002 66.842Q148.252 67.5488 148.252 68.4608Q148.252 69.5096 147.7124 70.24680000000001Q147.1728 70.984 146.2152 71.2728Q146.1848 71.2728 146.1696 71.3032Q146.1544 71.3336 146.1696 71.364L148.3128 75.7872Q148.3432 75.848 148.3432 75.8784Q148.3432 76.0 148.176 76.0H146.7168Q146.5648 76.0 146.504 75.8632ZM142.5064 66.956V69.9808Q142.5064 70.0568 142.5824 70.0568H144.8624Q145.592 70.0568 146.0404 69.6236Q146.4888 69.1904 146.4888 68.476Q146.4888 67.7616 146.0404 67.32079999999999Q145.592 66.88 144.8624 66.88H142.5824Q142.5064 66.88 142.5064 66.956Z M153.16960000000003 72.5496V65.5424Q153.16960000000003 65.4664 153.2228 65.41319999999999Q153.276 65.36 153.352 65.36H154.7504Q154.8264 65.36 154.8796 65.41319999999999Q154.93280000000001 65.4664 154.93280000000001 65.5424V72.58Q154.93280000000001 73.4768 155.4952 74.0392Q156.0576 74.6016 156.9848 74.6016Q157.912 74.6016 158.4744 74.0392Q159.03680000000003 73.4768 159.03680000000003 72.58V65.5424Q159.03680000000003 65.4664 159.09000000000003 65.41319999999999Q159.1432 65.36 159.21920000000003 65.36H160.6176Q160.6936 65.36 160.7468 65.41319999999999Q160.8 65.4664 160.8 65.5424V72.5496Q160.8 73.6136 160.3288 74.4268Q159.85760000000002 75.24 158.99120000000002 75.6808Q158.12480000000002 76.1216 156.9848 76.1216Q155.86 76.1216 154.99360000000001 75.6808Q154.12720000000002 75.24 153.64840000000004 74.4268Q153.16960000000003 73.6136 153.16960000000003 72.5496Z M165.86960000000002 72.5496V68.7952Q165.86960000000002 67.7312 166.3408 66.9256Q166.812 66.12 167.6784 65.67920000000001Q168.5448 65.2384 169.68480000000002 65.2384Q170.80960000000002 65.2384 171.67600000000002 65.664Q172.54240000000001 66.0896 173.0136 66.8648Q173.4848 67.64 173.4848 68.6584Q173.4848 68.7344 173.4316 68.7876Q173.3784 68.8408 173.3024 68.8408L171.90400000000002 68.9168Q171.72160000000002 68.9168 171.72160000000002 68.7496Q171.72160000000002 67.8528 171.16680000000002 67.3056Q170.61200000000002 66.7584 169.68480000000002 66.7584Q168.75760000000002 66.7584 168.1952 67.3056Q167.6328 67.8528 167.6328 68.7496V72.6256Q167.6328 73.5072 168.1952 74.0544Q168.75760000000002 74.6016 169.68480000000002 74.6016Q170.61200000000002 74.6016 171.16680000000002 74.06200000000001Q171.72160000000002 73.5224 171.72160000000002 72.6256Q171.72160000000002 72.4584 171.90400000000002 72.4584L173.3024 72.5192Q173.3784 72.5192 173.4316 72.56479999999999Q173.4848 72.6104 173.4848 72.6712Q173.4848 73.7048 173.0136 74.4876Q172.54240000000001 75.2704 171.67600000000002 75.696Q170.80960000000002 76.1216 169.68480000000002 76.1216Q168.5448 76.1216 167.6784 75.67320000000001Q166.812 75.2248 166.3408 74.4192Q165.86960000000002 73.6136 165.86960000000002 72.5496Z M185.744 65.5424V66.7128Q185.744 66.7888 185.69080000000002 66.842Q185.63760000000002 66.8952 185.5616 66.8952H182.7648Q182.68880000000001 66.8952 182.68880000000001 66.9712V75.8176Q182.68880000000001 75.8936 182.6356 75.9468Q182.5824 76.0 182.5064 76.0H181.108Q181.032 76.0 180.9788 75.9468Q180.9256 75.8936 180.9256 75.8176V66.9712Q180.9256 66.8952 180.8496 66.8952H178.1592Q178.0832 66.8952 178.03 66.842Q177.9768 66.7888 177.9768 66.7128V65.5424Q177.9768 65.4664 178.03 65.41319999999999Q178.0832 65.36 178.1592 65.36H185.5616Q185.63760000000002 65.36 185.69080000000002 65.41319999999999Q185.744 65.4664 185.744 65.5424Z M190.5704 75.8176V65.5424Q190.5704 65.4664 190.6236 65.41319999999999Q190.67680000000001 65.36 190.7528 65.36H192.15120000000002Q192.2272 65.36 192.28040000000001 65.41319999999999Q192.33360000000002 65.4664 192.33360000000002 65.5424V75.8176Q192.33360000000002 75.8936 192.28040000000001 75.9468Q192.2272 76.0 192.15120000000002 76.0H190.7528Q190.67680000000001 76.0 190.6236 75.9468Q190.5704 75.8936 190.5704 75.8176Z M197.4944 72.4128V68.9472Q197.4944 67.8528 197.98080000000002 67.00919999999999Q198.46720000000002 66.1656 199.34120000000001 65.702Q200.2152 65.2384 201.3552 65.2384Q202.5104 65.2384 203.3844 65.702Q204.2584 66.1656 204.7448 67.00919999999999Q205.2312 67.8528 205.2312 68.9472V72.4128Q205.2312 73.5224 204.7448 74.37360000000001Q204.2584 75.2248 203.3844 75.6884Q202.5104 76.152 201.3552 76.152Q200.2152 76.152 199.3336 75.6884Q198.452 75.2248 197.97320000000002 74.37360000000001Q197.4944 73.5224 197.4944 72.4128ZM203.46800000000002 72.4736V68.932Q203.46800000000002 67.944 202.8904 67.3512Q202.3128 66.7584 201.3552 66.7584Q200.4128 66.7584 199.8352 67.3512Q199.2576 67.944 199.2576 68.932V72.4736Q199.2576 73.4464 199.8352 74.0392Q200.4128 74.632 201.3552 74.632Q202.3128 74.632 202.8904 74.0392Q203.46800000000002 73.4464 203.46800000000002 72.4736Z M216.7608 65.36H218.1592Q218.2352 65.36 218.2884 65.41319999999999Q218.3416 65.4664 218.3416 65.5424V75.8176Q218.3416 75.8936 218.2884 75.9468Q218.2352 76.0 218.1592 76.0H216.8064Q216.6544 76.0 216.5936 75.8784L212.216 68.704Q212.1856 68.6584 212.15519999999998 68.666Q212.1248 68.6736 212.1248 68.7344L212.1552 75.8176Q212.1552 75.8936 212.102 75.9468Q212.0488 76.0 211.9728 76.0H210.5744Q210.4984 76.0 210.4452 75.9468Q210.392 75.8936 210.392 75.8176V65.5424Q210.392 65.4664 210.4452 65.41319999999999Q210.4984 65.36 210.5744 65.36H211.9272Q212.0792 65.36 212.14 65.4816L216.5024 72.656Q216.5328 72.7016 216.5632 72.694Q216.5936 72.6864 216.5936 72.6256L216.5784 65.5424Q216.5784 65.4664 216.6316 65.41319999999999Q216.6848 65.36 216.7608 65.36Z  M230.0008 75.8176V65.5424Q230.0008 65.4664 230.054 65.41319999999999Q230.1072 65.36 230.1832 65.36H231.5816Q231.6576 65.36 231.7108 65.41319999999999Q231.764 65.4664 231.764 65.5424V75.8176Q231.764 75.8936 231.7108 75.9468Q231.6576 76.0 231.5816 76.0H230.1832Q230.1072 76.0 230.054 75.9468Q230.0008 75.8936 230.0008 75.8176Z M243.552 65.36H244.9504Q245.0264 65.36 245.0796 65.41319999999999Q245.1328 65.4664 245.1328 65.5424V75.8176Q245.1328 75.8936 245.0796 75.9468Q245.0264 76.0 244.9504 76.0H243.5976Q243.4456 76.0 243.3848 75.8784L239.0072 68.704Q238.9768 68.6584 238.94639999999998 68.666Q238.916 68.6736 238.916 68.7344L238.9464 75.8176Q238.9464 75.8936 238.8932 75.9468Q238.84 76.0 238.764 76.0H237.3656Q237.2896 76.0 237.2364 75.9468Q237.1832 75.8936 237.1832 75.8176V65.5424Q237.1832 65.4664 237.2364 65.41319999999999Q237.2896 65.36 237.3656 65.36H238.7184Q238.8704 65.36 238.9312 65.4816L243.2936 72.656Q243.324 72.7016 243.3544 72.694Q243.3848 72.6864 243.3848 72.6256L243.3696 65.5424Q243.3696 65.4664 243.4228 65.41319999999999Q243.476 65.36 243.552 65.36Z M250.2936 72.5496V68.7952Q250.2936 67.7312 250.76479999999998 66.9256Q251.236 66.12 252.1024 65.67920000000001Q252.9688 65.2384 254.1088 65.2384Q255.2336 65.2384 256.09999999999997 65.664Q256.96639999999996 66.0896 257.4376 66.8648Q257.9088 67.64 257.9088 68.6584Q257.9088 68.7344 257.8556 68.7876Q257.8024 68.8408 257.7264 68.8408L256.328 68.9168Q256.1456 68.9168 256.1456 68.7496Q256.1456 67.8528 255.5908 67.3056Q255.036 66.7584 254.1088 66.7584Q253.1816 66.7584 252.61919999999998 67.3056Q252.05679999999998 67.8528 252.05679999999998 68.7496V72.6256Q252.05679999999998 73.5072 252.61919999999998 74.0544Q253.1816 74.6016 254.1088 74.6016Q255.036 74.6016 255.5908 74.06200000000001Q256.1456 73.5224 256.1456 72.6256Q256.1456 72.4584 256.328 72.4584L257.7264 72.5192Q257.8024 72.5192 257.8556 72.56479999999999Q257.9088 72.6104 257.9088 72.6712Q257.9088 73.7048 257.4376 74.4876Q256.96639999999996 75.2704 256.09999999999997 75.696Q255.2336 76.1216 254.1088 76.1216Q252.9688 76.1216 252.1024 75.67320000000001Q251.236 75.2248 250.76479999999998 74.4192Q250.2936 73.6136 250.2936 72.5496Z M262.82640000000004 74.9512Q262.82640000000004 74.47999999999999 263.1304 74.17599999999999Q263.43440000000004 73.872 263.90560000000005 73.872Q264.3768 73.872 264.6732 74.17599999999999Q264.9696 74.47999999999999 264.9696 74.9512Q264.9696 75.4224 264.66560000000004 75.7264Q264.3616 76.0304 263.90560000000005 76.0304Q263.43440000000004 76.0304 263.1304 75.7264Q262.82640000000004 75.4224 262.82640000000004 74.9512Z" fill="#5B6B66"/>
+</svg>
+      <span class="draftlogo">Draft logo concept</span>
+    </a>
+    <nav aria-label="Main">
+      <a href="#services">Services</a>
+      <a href="#tools">Floor tools</a>
+      <a href="#how">How it works</a>
+      <a class="lg" href="#projects">Projects</a>
+      <a class="lg" href="#faq">FAQ</a>
+      <a href="#quote">Estimate</a>
+    </nav>
+    <a class="btn btn-oak hcall" href="tel:+15555550100">Call (555) 555-0100 [placeholder]</a>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero" aria-labelledby="h1">
+  <div class="wrap hero-grid rv in">
+    <div>
+      <span class="eyebrow">Lower Bucks County, PA</span>
+      <h1 id="h1">New floors for <em>lower Bucks County</em> homes</h1>
+      <p class="lead">Gregory Helfrich Construction Inc. puts flooring first. Call or email to ask about your floors and set up a free estimate.</p>
+      <div class="cta">
+        <a class="btn btn-oak" href="tel:+15555550100">Call (555) 555-0100 [placeholder]</a>
+        <a class="btn btn-ghost" href="mailto:email@example.com">Email for an estimate</a>
+      </div>
+      <small class="note">Also roofing, siding, windows and general construction.</small>
+      <a class="scrollcue" href="#tools">Planning a floor? Try the free planning tools &darr;</a>
+    </div>
+    <div class="photo"><img src="assets/p4263067.jpg" alt="Stock photo of a person laying a wood-look floor (placeholder)" width="1600" height="1067"><span class="stock">Stock photo / placeholder</span></div>
+  </div>
+</section>
+
+<section class="trustbar" aria-label="At a glance">
+  <ul>
+    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M4 12h10M4 17h16"/></svg>Flooring first</li>
+    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Lower Bucks County</li>
+    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>Call or email direct</li>
+    <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12l5 5L20 6"/></svg>Free estimate</li>
+  </ul>
+</section>
+
+<section class="section" id="services" aria-labelledby="svc-h">
+  <div class="wrap">
+    <span class="kicker rv">What we do</span>
+    <h2 id="svc-h" class="rv">Services</h2>
+    <p class="sub rv">Flooring is the main focus right now. We also take on roofing, siding, windows and general construction.</p>
+    <div class="svc-grid">
+
+      <article class="card feat rv">
+        <div class="body">
+          <span class="tag">Main focus</span>
+          <h3>Flooring</h3>
+          <p>Most of our work right now is flooring for homes in lower Bucks County. Tell us about the room or rooms you have in mind and we will go from there.</p>
+          <div class="planks m" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+          <a class="btn btn-oak" style="margin-top:12px;align-self:flex-start" href="tel:+15555550100">Call about flooring</a>
+        </div>
+        <div class="aside" aria-hidden="true"><div class="planks" style="display:grid;gap:7px;width:100%"><i style="display:block;height:18px;border-radius:3px;background:var(--oak)"></i><i style="display:block;height:18px;border-radius:3px;width:78%;margin-left:14%;background:#E9D9BC"></i><i style="display:block;height:18px;border-radius:3px;width:62%;background:var(--oak)"></i><i style="display:block;height:18px;border-radius:3px;width:40%;margin-left:30%;background:#E9D9BC"></i><i style="display:block;height:18px;border-radius:3px;width:88%;background:var(--oak)"></i></div></div>
+      </article>
+
+      <article class="card rv">
+        <div class="photo"><img src="assets/p33404248.jpg" alt="Stock photo of shingles being installed on a roof (placeholder)" loading="lazy" width="1400" height="933"><span class="stock">Stock photo / placeholder</span></div>
+        <div class="body"><h3>Roofing</h3><p>Roofing work for your home.</p><a class="more" href="tel:+15555550100">Ask about roofing &rarr;</a></div>
+      </article>
+
+      <article class="card rv">
+        <div class="photo"><img src="assets/p19571425.jpg" alt="Stock photo of a house with wood siding (placeholder)" loading="lazy" width="1400" height="1867" style="object-position:50% 55%"><span class="stock">Stock photo / placeholder</span></div>
+        <div class="body"><h3>Siding</h3><p>Siding for the outside of your home.</p><a class="more" href="tel:+15555550100">Ask about siding &rarr;</a></div>
+      </article>
+
+      <article class="card rv">
+        <div class="photo"><img src="assets/p5691550.jpg" alt="Stock photo of a person working at a window (placeholder)" loading="lazy" width="1400" height="935"><span class="stock">Stock photo / placeholder</span></div>
+        <div class="body"><h3>Windows</h3><p>Window work for your home.</p><a class="more" href="tel:+15555550100">Ask about windows &rarr;</a></div>
+      </article>
+
+      <article class="card rv">
+        <div class="photo"><img src="assets/p5484718.jpg" alt="Stock photo of carpentry tools on a wooden surface (placeholder)" loading="lazy" width="1400" height="933"><span class="stock">Stock photo / placeholder</span></div>
+        <div class="body"><h3>General construction</h3><p>Have a project that does not fit the list? Call and ask.</p><a class="more" href="tel:+15555550100">Ask about your project &rarr;</a></div>
+      </article>
+    </div>
+    <div class="nextstep rv"><span>Not sure where to start?</span><a class="btn btn-dark" href="#tools">Plan your floor with our free tools</a></div>
+  </div>
+</section>
+
+<section class="section tools" id="tools" aria-labelledby="tl-h">
+  <div class="wrap">
+    <span class="kicker rv">Free planning tools</span>
+    <h2 id="tl-h" class="rv">Plan your floor</h2>
+    <p class="sub rv">Three quick tools to get ready before you call. Everything runs in your browser. Nothing is sent or saved anywhere.</p>
+
+    <div class="rv">
+    <div class="tabs" role="tablist" aria-label="Planning tools">
+      <button class="tab" role="tab" id="t1" aria-controls="p1" aria-selected="true" type="button">1 Measure<small>Square feet</small></button>
+      <button class="tab" role="tab" id="t2" aria-controls="p2" aria-selected="false" tabindex="-1" type="button">2 Pick<small>Floor types</small></button>
+      <button class="tab" role="tab" id="t3" aria-controls="p3" aria-selected="false" tabindex="-1" type="button">3 Prep<small>Checklist</small></button>
+    </div>
+
+    <!-- 1 calculator -->
+    <div class="panel" role="tabpanel" id="p1" aria-labelledby="t1">
+      <h3>Square footage calculator <span class="dtag">Demo tool</span></h3>
+      <p class="lede">Add each room you want floored. Enter length and width in feet (decimals are fine, like 12.5).</p>
+      <div class="rooms" id="rooms"></div>
+      <div class="rowbtns"><button class="btn btn-line sm" type="button" id="addRoom">+ Add a room</button></div>
+      <div class="result" aria-live="polite">
+        <div class="rowr">
+          <div><div class="big"><span id="tot">0</span> <small>sq ft total</small></div></div>
+          <div><div class="big waste"><span id="totw">0</span> <small>sq ft with 10% extra</small></div></div>
+        </div>
+        <p><b>Why add 10%?</b> Flooring is usually ordered with about 10% extra to cover cuts, odd corners and waste. Your installer can tell you the right amount for your layout. This tool gives square feet only, with no prices or cost estimates.</p>
+      </div>
+      <div class="rowbtns"><a class="btn btn-oak sm" href="#p2" data-tab="t2">Next: Which floor fits? &rarr;</a></div>
+    </div>
+
+    <!-- 2 picker -->
+    <div class="panel" role="tabpanel" id="p2" aria-labelledby="t2" hidden>
+      <h3>Which floor fits my room? <span class="dtag">Demo tool</span></h3>
+      <p class="lede">Answer four quick questions to see floor types that are worth asking about.</p>
+      <fieldset class="q"><legend>1. Which room?</legend><div class="opts" data-q="room">
+        <label><input type="radio" name="room" value="Kitchen"><span>Kitchen</span></label>
+        <label><input type="radio" name="room" value="Bathroom"><span>Bathroom</span></label>
+        <label><input type="radio" name="room" value="Basement"><span>Basement</span></label>
+        <label><input type="radio" name="room" value="Living or dining room"><span>Living / dining</span></label>
+        <label><input type="radio" name="room" value="Bedroom"><span>Bedroom</span></label>
+        <label><input type="radio" name="room" value="Entry or mudroom"><span>Entry / mudroom</span></label>
+        <label><input type="radio" name="room" value="Other"><span>Other</span></label></div></fieldset>
+      <fieldset class="q"><legend>2. Pets or kids in the home?</legend><div class="opts" data-q="pets">
+        <label><input type="radio" name="pets" value="Yes"><span>Yes</span></label>
+        <label><input type="radio" name="pets" value="No"><span>No</span></label></div></fieldset>
+      <fieldset class="q"><legend>3. Moisture in the room?</legend><div class="opts" data-q="moist">
+        <label><input type="radio" name="moist" value="Dry"><span>Usually dry</span></label>
+        <label><input type="radio" name="moist" value="Sometimes damp"><span>Spills or some damp</span></label>
+        <label><input type="radio" name="moist" value="Often wet or below ground"><span>Often wet / below ground</span></label></div></fieldset>
+      <fieldset class="q"><legend>4. What feel do you want?</legend><div class="opts" data-q="feel">
+        <label><input type="radio" name="feel" value="Warm, natural look"><span>Warm, natural look</span></label>
+        <label><input type="radio" name="feel" value="Easiest to keep clean"><span>Easiest to keep clean</span></label>
+        <label><input type="radio" name="feel" value="Hard-wearing"><span>Hard-wearing</span></label>
+        <label><input type="radio" name="feel" value="No strong preference"><span>No strong preference</span></label></div></fieldset>
+      <div id="picksOut" aria-live="polite"><p class="fine2">Answer all four questions to see suggestions.</p></div>
+      <div class="rowbtns"><a class="btn btn-oak sm" href="#p3" data-tab="t3">Next: Prep for my estimate &rarr;</a><a class="btn btn-line sm" href="#p1" data-tab="t1">&larr; Back to measuring</a></div>
+    </div>
+
+    <!-- 3 checklist + summary -->
+    <div class="panel" role="tabpanel" id="p3" aria-labelledby="t3" hidden>
+      <h3>Estimate-prep checklist <span class="dtag">Demo tool</span></h3>
+      <p class="lede">Tick off what you have ready, then copy a summary to share when you call or email.</p>
+      <div class="pbar" aria-hidden="true"><i id="pb"></i></div>
+      <ul class="chk">
+        <li><label><input type="checkbox" data-k="photos"><span>Photos of the space<small>A wide shot of each room plus close-ups of any trouble spots.</small></span></label></li>
+        <li><label><input type="checkbox" data-k="meas"><span>Rough measurements<small>Use the square footage calculator (step 1).</small></span></label></li>
+        <li><label><input type="checkbox" data-k="type"><span>A floor type or two to ask about<small>Try the picker (step 2).</small></span></label></li>
+        <li><label><input type="checkbox" data-k="time"><span>A timeline in mind<small>When would you like the work done?</small></span></label></li>
+        <li><label><input type="checkbox" data-k="qs"><span>My questions written down<small>Anything you want to ask on the call.</small></span></label></li>
+      </ul>
+      <div class="fld"><label for="timeline">Timeline (optional)</label><input type="text" id="timeline" placeholder="For example: sometime this spring"></div>
+      <div class="fld"><label for="notes">Questions or notes (optional)</label><textarea id="notes" placeholder="Anything you want to mention or ask"></textarea></div>
+      <div class="rowbtns"><button class="btn btn-oak sm" type="button" id="buildSum">Build my project summary</button></div>
+      <textarea class="sumbox" id="sum" readonly aria-label="Project summary" placeholder="Your summary will appear here."></textarea>
+      <div class="rowbtns"><button class="btn btn-dark sm" type="button" id="copySum">Copy my project summary</button><a class="btn btn-line sm" href="#quote" id="toForm">Go to the estimate form &rarr;</a></div>
+      <div class="toast" id="toast" role="status"></div>
+      <p class="fine2">Demo tool. The summary stays on this page. Nothing is sent, saved or shared unless you copy and paste it yourself.</p>
+    </div>
+    </div>
+
+    <div class="nextstep rv"><span>Ready to talk it through?</span><a class="btn btn-oak" href="tel:+15555550100">Call (555) 555-0100 [placeholder]</a><a class="btn btn-line" href="#quote">Ask for an estimate</a></div>
+  </div>
+</section>
+
+
+<section class="section how" id="how" aria-labelledby="how-h">
+  <div class="wrap">
+    <span class="kicker rv">Simple</span>
+    <h2 id="how-h" class="rv">How it works</h2>
+    <p class="sub">Three steps.</p>
+    <div class="steps rv">
+      <div class="step"><h3>Call</h3><p>Call (555) 555-0100 [placeholder] or send an email and tell us what you need.</p></div>
+      <div class="step"><h3>Free estimate</h3><p>We look at the job and give you a free estimate.</p></div>
+      <div class="step"><h3>The job done</h3><p>We do the work.</p></div>
+    </div>
+    <div class="nextstep rv"><span>Ready for step 1?</span><a class="btn btn-oak" href="tel:+15555550100">Call (555) 555-0100 [placeholder]</a><a class="btn btn-line" href="#tools">Measure my room first</a></div>
+  </div>
+</section>
+
+<section class="section" id="projects" aria-labelledby="pr-h">
+  <div class="wrap">
+    <span class="kicker rv">Our work</span>
+    <h2 id="pr-h" class="rv">Project gallery</h2>
+    <p class="sub">Placeholder gallery. Gregory's own job photos will go here after the project starts.</p>
+    <div class="gal rv">
+      <div class="tile has"><img src="assets/p4263067.jpg" alt="Stock photo of a floor being laid (placeholder)" loading="lazy" width="1600" height="1067"><span class="stock">Stock photo / placeholder</span></div>
+      <div class="tile"><div class="ph">Your floor photo goes here<small>Placeholder, no image yet</small></div></div>
+      <div class="tile has"><img src="assets/p37677476.jpg" alt="Stock photo of roofers working on a brick home (placeholder)" loading="lazy" width="1400" height="933"><span class="stock">Stock photo / placeholder</span></div>
+      <div class="tile"><div class="ph">Your job photo goes here<small>Placeholder, no image yet</small></div></div>
+      <div class="tile"><div class="ph">Your before / after goes here<small>Placeholder, no image yet</small></div></div>
+      <div class="tile"><div class="ph">Your job photo goes here<small>Placeholder, no image yet</small></div></div>
+    </div>
+    <div class="nextstep rv"><span>Picture your own floor here</span><a class="btn btn-oak" href="#quote">Ask for an estimate</a></div>
+  </div>
+</section>
+
+<section class="section reviews" id="reviews" aria-labelledby="rv-h" style="padding-top:0">
+  <div class="wrap">
+    <span class="kicker">Customer feedback</span>
+    <h2 id="rv-h">Reviews</h2>
+    <div class="box rv" style="margin-top:24px">
+      <strong>Your reviews go here</strong>
+      <p>Real customer reviews will be added once there are some to share. Nothing is shown here until then.</p>
+      <span class="phtag">[placeholder]</span>
+    </div>
+  </div>
+</section>
+
+<section class="section faq" id="faq" aria-labelledby="fq-h" style="padding-top:0">
+  <div class="wrap">
+    <span class="kicker rv">Good to know</span>
+    <h2 id="fq-h" class="rv">Common questions</h2>
+    <p class="sub rv">General questions about getting an estimate. For anything specific to your project, call or email.</p>
+    <div class="rv">
+      <details><summary>How does getting an estimate work?</summary><div class="ans">Call or email and tell us about your project. Then we set up a free estimate. The steps above show the process: call, free estimate, the job done.</div></details>
+      <details><summary>What should I have ready?</summary><div class="ans">It helps to have photos of the space, rough measurements, a floor type or two you want to ask about, and any questions. The Prep tab in the planning tools has a checklist and builds a summary you can copy.</div></details>
+      <details><summary>Do I need exact measurements?</summary><div class="ans">Rough measurements are enough to start the conversation. The square footage calculator gives you a number to share. Ask how final measurements are handled.</div></details>
+      <details><summary>I do not know which floor to choose. Is that okay?</summary><div class="ans">Yes. The picker shows general floor types that are worth asking about for your room. It is general guidance, so talk it over when you call.</div></details>
+      <details><summary>Can I get help with more than flooring?</summary><div class="ans">Flooring is the main focus right now. Roofing, siding, windows and general construction are also listed. Call or email to ask about your project.</div></details>
+    </div>
+    <div class="nextstep rv"><span>Still have a question?</span><a class="btn btn-oak" href="tel:+15555550100">Call (555) 555-0100 [placeholder]</a><a class="btn btn-line" href="mailto:email@example.com">Email us</a></div>
+  </div>
+</section>
+
+
+<section class="section areas" id="area" aria-labelledby="ar-h">
+  <div class="wrap areagrid"><div>
+    <span class="kicker" style="color:var(--oak)">Where we work</span>
+    <h2 id="ar-h">Service area</h2>
+    <p class="sub">Serving homes in</p>
+    <span class="pill">Lower Bucks County, PA</span>
+    <p class="sub" style="margin-top:22px">Not sure if you are in our area? <a href="tel:+15555550100">Call (555) 555-0100 [placeholder]</a> and ask.</p>
+    <div class="nextstep rv"><span>In the area?</span><a class="btn btn-oak" href="#quote">Ask for an estimate</a></div>
+  </div><div class="aplanks" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+  </div>
+</section>
+
+<section class="section quote" id="quote" aria-labelledby="q-h">
+  <div class="wrap quote-grid">
+    <div class="formbox rv">
+      <div class="demoflag">DEMO FORM: not connected. It does not send or save anything.</div>
+      <span class="kicker">Free estimate</span>
+      <h2 id="q-h" style="font-size:clamp(34px,8vw,48px)">Ask for an estimate</h2>
+      <div class="formtools"><button class="btn btn-line sm" type="button" id="paste">Paste in from tools</button><span class="fine2" style="margin:0">Fills the message from your planning tools.</span></div>
+      <form onsubmit="return false" autocomplete="off">
+        <label for="n">Name</label><input id="n" type="text" placeholder="Your name">
+        <label for="p">Phone</label><input id="p" type="tel" placeholder="Your phone number">
+        <label for="s">What do you need?</label>
+        <select id="s"><option>Flooring</option><option>Roofing</option><option>Siding</option><option>Windows</option><option>General construction</option></select>
+        <label for="m">Tell us about the job</label><textarea id="m" placeholder="Room or area, what you have in mind"></textarea>
+        <button class="btn btn-oak" type="button" aria-disabled="true">Send (demo only)</button>
+      </form>
+    </div>
+    <div class="direct rv">
+      <span class="kicker">Or reach out directly</span>
+      <a class="line" href="tel:+15555550100"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg><div><span>Call</span><b>(555) 555-0100 [placeholder]</b></div></a>
+      <a class="line" href="mailto:email@example.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg><div><span>Email</span><b style="font-size:24px">email@example.com [placeholder]</b></div></a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="ft">
+  <div class="wrap">
+    <div class="grid">
+      <div>
+        <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap"><svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 296 88" role="img" aria-label="Gregory Helfrich Construction Inc. (draft logo concept)">
+<title>Gregory Helfrich Construction Inc. - draft logo concept</title>
+<rect x="4" y="12" width="64" height="64" rx="10" fill="#D08A3C"/>
+<rect x="12" y="26" width="40" height="9" rx="2" fill="#1F3A34"/>
+<rect x="24" y="39" width="32" height="9" rx="2" fill="#FFFFFF"/>
+<rect x="12" y="52" width="26" height="9" rx="2" fill="#1F3A34"/>
+<rect x="42" y="52" width="14" height="9" rx="2" fill="#FFFFFF"/>
+<path d="M93.11 11.399999999999999H101.346Q101.636 11.399999999999999 101.839 11.602999999999998Q102.042 11.805999999999997 102.042 12.095999999999997V51.304Q102.042 51.594 101.839 51.797Q101.636 52.0 101.346 52.0H93.11Q92.82 52.0 92.61699999999999 51.797Q92.414 51.594 92.414 51.304V36.108Q92.414 35.818 92.124 35.818H87.94800000000001Q87.658 35.818 87.658 36.108V51.304Q87.658 51.594 87.455 51.797Q87.252 52.0 86.962 52.0H78.726Q78.436 52.0 78.233 51.797Q78.03 51.594 78.03 51.304V12.095999999999997Q78.03 11.805999999999997 78.233 11.602999999999998Q78.436 11.399999999999999 78.726 11.399999999999999H86.962Q87.252 11.399999999999999 87.455 11.602999999999998Q87.658 11.805999999999997 87.658 12.095999999999997V27.233999999999998Q87.658 27.523999999999997 87.94800000000001 27.523999999999997H92.124Q92.414 27.523999999999997 92.414 27.233999999999998V12.095999999999997Q92.414 11.805999999999997 92.61699999999999 11.602999999999998Q92.82 11.399999999999999 93.11 11.399999999999999Z M129.12 19.635999999999996H117.46200000000002Q117.17200000000001 19.635999999999996 117.17200000000001 19.925999999999995V27.233999999999998Q117.17200000000001 27.523999999999997 117.46200000000002 27.523999999999997H123.84200000000001Q124.132 27.523999999999997 124.33500000000001 27.726999999999997Q124.53800000000001 27.93 124.53800000000001 28.22V35.122Q124.53800000000001 35.412 124.33500000000001 35.614999999999995Q124.132 35.818 123.84200000000001 35.818H117.46200000000002Q117.17200000000001 35.818 117.17200000000001 36.108V43.474000000000004Q117.17200000000001 43.763999999999996 117.46200000000002 43.763999999999996H129.12Q129.41000000000003 43.763999999999996 129.613 43.967Q129.816 44.17 129.816 44.46V51.304Q129.816 51.594 129.613 51.797Q129.41000000000003 52.0 129.12 52.0H108.24000000000001Q107.95000000000002 52.0 107.74700000000001 51.797Q107.54400000000001 51.594 107.54400000000001 51.304V12.095999999999997Q107.54400000000001 11.805999999999997 107.74700000000001 11.602999999999998Q107.95000000000002 11.399999999999999 108.24000000000001 11.399999999999999H129.12Q129.41000000000003 11.399999999999999 129.613 11.602999999999998Q129.816 11.805999999999997 129.816 12.095999999999997V18.939999999999998Q129.816 19.229999999999997 129.613 19.432999999999996Q129.41000000000003 19.635999999999996 129.12 19.635999999999996Z M134.622 51.304V12.095999999999997Q134.622 11.805999999999997 134.82500000000002 11.602999999999998Q135.02800000000002 11.399999999999999 135.318 11.399999999999999H143.554Q143.84400000000002 11.399999999999999 144.04700000000003 11.602999999999998Q144.25 11.805999999999997 144.25 12.095999999999997V43.474000000000004Q144.25 43.763999999999996 144.54000000000002 43.763999999999996H156.372Q156.662 43.763999999999996 156.865 43.967Q157.068 44.17 157.068 44.46V51.304Q157.068 51.594 156.865 51.797Q156.662 52.0 156.372 52.0H135.318Q135.02800000000002 52.0 134.82500000000002 51.797Q134.622 51.594 134.622 51.304Z M183.044 19.635999999999996H171.38600000000002Q171.096 19.635999999999996 171.096 19.925999999999995V27.233999999999998Q171.096 27.523999999999997 171.38600000000002 27.523999999999997H177.76600000000002Q178.056 27.523999999999997 178.25900000000001 27.726999999999997Q178.46200000000002 27.93 178.46200000000002 28.22V35.122Q178.46200000000002 35.412 178.25900000000001 35.614999999999995Q178.056 35.818 177.76600000000002 35.818H171.38600000000002Q171.096 35.818 171.096 36.108V51.304Q171.096 51.594 170.89300000000003 51.797Q170.69000000000003 52.0 170.4 52.0H162.16400000000002Q161.87400000000002 52.0 161.67100000000002 51.797Q161.46800000000002 51.594 161.46800000000002 51.304V12.095999999999997Q161.46800000000002 11.805999999999997 161.67100000000002 11.602999999999998Q161.87400000000002 11.399999999999999 162.16400000000002 11.399999999999999H183.044Q183.334 11.399999999999999 183.537 11.602999999999998Q183.74 11.805999999999997 183.74 12.095999999999997V18.939999999999998Q183.74 19.229999999999997 183.537 19.432999999999996Q183.334 19.635999999999996 183.044 19.635999999999996Z M202.756 51.42 198.812 36.05Q198.75400000000002 35.818 198.52200000000002 35.818H197.65200000000002Q197.36200000000002 35.818 197.36200000000002 36.108V51.304Q197.36200000000002 51.594 197.15900000000002 51.797Q196.95600000000002 52.0 196.666 52.0H188.43Q188.14000000000001 52.0 187.937 51.797Q187.734 51.594 187.734 51.304V12.095999999999997Q187.734 11.805999999999997 187.937 11.602999999999998Q188.14000000000001 11.399999999999999 188.43 11.399999999999999H200.9Q204.264 11.399999999999999 206.87400000000002 12.994999999999997Q209.484 14.589999999999996 210.90500000000003 17.461Q212.32600000000002 20.331999999999997 212.32600000000002 23.985999999999997Q212.32600000000002 27.233999999999998 211.137 29.814999999999998Q209.948 32.396 207.80200000000002 33.962Q207.686 34.019999999999996 207.628 34.107Q207.57 34.194 207.62800000000001 34.31L212.616 51.188L212.674 51.42Q212.674 52.0 212.036 52.0H203.568Q202.93 52.0 202.756 51.42ZM197.36200000000002 19.925999999999995V28.162Q197.36200000000002 28.451999999999998 197.65200000000002 28.451999999999998H199.276Q200.842 28.451999999999998 201.77 27.291999999999998Q202.698 26.131999999999998 202.698 24.102Q202.698 21.956 201.77 20.796Q200.842 19.635999999999996 199.276 19.635999999999996H197.65200000000002Q197.36200000000002 19.635999999999996 197.36200000000002 19.925999999999995Z M217.132 51.304V12.095999999999997Q217.132 11.805999999999997 217.335 11.602999999999998Q217.538 11.399999999999999 217.828 11.399999999999999H226.064Q226.354 11.399999999999999 226.55700000000002 11.602999999999998Q226.76 11.805999999999997 226.76 12.095999999999997V51.304Q226.76 51.594 226.55700000000002 51.797Q226.354 52.0 226.064 52.0H217.828Q217.538 52.0 217.335 51.797Q217.132 51.594 217.132 51.304Z M231.798 40.574V22.767999999999997Q231.798 17.315999999999995 235.10399999999998 14.125999999999998Q238.41 10.936 243.92 10.936Q249.43 10.936 252.76500000000001 14.125999999999998Q256.1 17.315999999999995 256.1 22.767999999999997V23.29Q256.1 23.58 255.897 23.782999999999998Q255.694 23.985999999999997 255.404 23.985999999999997L247.168 24.334Q246.472 24.334 246.472 23.637999999999998V22.072Q246.472 20.738 245.776 19.955Q245.08 19.171999999999997 243.92 19.171999999999997Q242.818 19.171999999999997 242.122 19.955Q241.426 20.738 241.426 22.072V41.385999999999996Q241.426 42.662 242.122 43.445Q242.818 44.228 243.92 44.228Q245.08 44.228 245.776 43.445Q246.472 42.662 246.472 41.385999999999996V39.704Q246.472 39.414 246.675 39.211Q246.878 39.007999999999996 247.168 39.007999999999996L255.404 39.356Q255.694 39.356 255.897 39.559Q256.1 39.762 256.1 40.052V40.574Q256.1 45.968 252.76500000000001 49.216Q249.43 52.464 243.92 52.464Q238.41 52.464 235.10399999999998 49.216Q231.798 45.968 231.798 40.574Z M276.10200000000003 11.399999999999999H284.338Q284.62800000000004 11.399999999999999 284.831 11.602999999999998Q285.034 11.805999999999997 285.034 12.095999999999997V51.304Q285.034 51.594 284.831 51.797Q284.62800000000004 52.0 284.338 52.0H276.10200000000003Q275.812 52.0 275.60900000000004 51.797Q275.406 51.594 275.406 51.304V36.108Q275.406 35.818 275.11600000000004 35.818H270.94Q270.65000000000003 35.818 270.65000000000003 36.108V51.304Q270.65000000000003 51.594 270.447 51.797Q270.244 52.0 269.954 52.0H261.718Q261.428 52.0 261.225 51.797Q261.022 51.594 261.022 51.304V12.095999999999997Q261.022 11.805999999999997 261.225 11.602999999999998Q261.428 11.399999999999999 261.718 11.399999999999999H269.954Q270.244 11.399999999999999 270.447 11.602999999999998Q270.65000000000003 11.805999999999997 270.65000000000003 12.095999999999997V27.233999999999998Q270.65000000000003 27.523999999999997 270.94 27.523999999999997H275.11600000000004Q275.406 27.523999999999997 275.406 27.233999999999998V12.095999999999997Q275.406 11.805999999999997 275.60900000000004 11.602999999999998Q275.812 11.399999999999999 276.10200000000003 11.399999999999999Z" fill="#FFFFFF"/>
+<path d="M77.8512 72.5496V68.7952Q77.8512 67.7312 78.3224 66.9256Q78.7936 66.12 79.66 65.67920000000001Q80.5264 65.2384 81.6664 65.2384Q82.7912 65.2384 83.6576 65.664Q84.524 66.0896 84.9952 66.8648Q85.4664 67.64 85.4664 68.6584Q85.4664 68.7344 85.41319999999999 68.7876Q85.36 68.8408 85.284 68.8408L83.8856 68.9168Q83.7032 68.9168 83.7032 68.7496Q83.7032 67.8528 83.1484 67.3056Q82.5936 66.7584 81.6664 66.7584Q80.7392 66.7584 80.1768 67.3056Q79.6144 67.8528 79.6144 68.7496V72.6256Q79.6144 73.5072 80.1768 74.0544Q80.7392 74.6016 81.6664 74.6016Q82.5936 74.6016 83.1484 74.06200000000001Q83.7032 73.5224 83.7032 72.6256Q83.7032 72.4584 83.8856 72.4584L85.284 72.5192Q85.36 72.5192 85.41319999999999 72.56479999999999Q85.4664 72.6104 85.4664 72.6712Q85.4664 73.7048 84.9952 74.4876Q84.524 75.2704 83.6576 75.696Q82.7912 76.1216 81.6664 76.1216Q80.5264 76.1216 79.66 75.67320000000001Q78.7936 75.2248 78.3224 74.4192Q77.8512 73.6136 77.8512 72.5496Z M90.2928 72.4128V68.9472Q90.2928 67.8528 90.7792 67.00919999999999Q91.26559999999999 66.1656 92.1396 65.702Q93.0136 65.2384 94.1536 65.2384Q95.30879999999999 65.2384 96.18279999999999 65.702Q97.0568 66.1656 97.54319999999998 67.00919999999999Q98.02959999999999 67.8528 98.02959999999999 68.9472V72.4128Q98.02959999999999 73.5224 97.54319999999998 74.37360000000001Q97.0568 75.2248 96.18279999999999 75.6884Q95.30879999999999 76.152 94.1536 76.152Q93.0136 76.152 92.132 75.6884Q91.2504 75.2248 90.7716 74.37360000000001Q90.2928 73.5224 90.2928 72.4128ZM96.26639999999999 72.4736V68.932Q96.26639999999999 67.944 95.68879999999999 67.3512Q95.1112 66.7584 94.1536 66.7584Q93.21119999999999 66.7584 92.6336 67.3512Q92.056 67.944 92.056 68.932V72.4736Q92.056 73.4464 92.6336 74.0392Q93.21119999999999 74.632 94.1536 74.632Q95.1112 74.632 95.68879999999999 74.0392Q96.26639999999999 73.4464 96.26639999999999 72.4736Z M109.55919999999999 65.36H110.9576Q111.03359999999999 65.36 111.0868 65.41319999999999Q111.14 65.4664 111.14 65.5424V75.8176Q111.14 75.8936 111.0868 75.9468Q111.03359999999999 76.0 110.9576 76.0H109.6048Q109.4528 76.0 109.392 75.8784L105.0144 68.704Q104.984 68.6584 104.9536 68.666Q104.9232 68.6736 104.9232 68.7344L104.9536 75.8176Q104.9536 75.8936 104.90039999999999 75.9468Q104.8472 76.0 104.7712 76.0H103.3728Q103.29679999999999 76.0 103.24359999999999 75.9468Q103.1904 75.8936 103.1904 75.8176V65.5424Q103.1904 65.4664 103.24359999999999 65.41319999999999Q103.29679999999999 65.36 103.3728 65.36H104.7256Q104.8776 65.36 104.9384 65.4816L109.3008 72.656Q109.3312 72.7016 109.3616 72.694Q109.392 72.6864 109.392 72.6256L109.3768 65.5424Q109.3768 65.4664 109.43 65.41319999999999Q109.4832 65.36 109.55919999999999 65.36Z M116.08800000000001 73.0664V72.6864Q116.08800000000001 72.6104 116.1412 72.5572Q116.1944 72.504 116.27040000000001 72.504H117.6232Q117.6992 72.504 117.7524 72.5572Q117.8056 72.6104 117.8056 72.6864V72.9752Q117.8056 73.6744 118.4288 74.138Q119.052 74.6016 120.1312 74.6016Q121.0584 74.6016 121.5296 74.2064Q122.0008 73.8112 122.0008 73.188Q122.0008 72.7624 121.7424 72.46600000000001Q121.48400000000001 72.1696 121.0052 71.9264Q120.52640000000001 71.6832 119.56880000000001 71.3184Q118.48960000000001 70.9232 117.8208 70.5736Q117.152 70.224 116.7036 69.62360000000001Q116.2552 69.0232 116.2552 68.1264Q116.2552 66.7888 117.22800000000001 66.0136Q118.2008 65.2384 119.8272 65.2384Q120.9672 65.2384 121.84120000000001 65.6336Q122.71520000000001 66.0288 123.20160000000001 66.7356Q123.688 67.44239999999999 123.688 68.3696V68.628Q123.688 68.704 123.63480000000001 68.7572Q123.58160000000001 68.8104 123.5056 68.8104H122.1376Q122.0616 68.8104 122.0084 68.7572Q121.9552 68.704 121.9552 68.628V68.4608Q121.9552 67.7464 121.37 67.2524Q120.7848 66.7584 119.7512 66.7584Q118.9152 66.7584 118.4516 67.108Q117.988 67.4576 117.988 68.096Q117.988 68.55199999999999 118.2312 68.8408Q118.4744 69.1296 118.9608 69.3652Q119.44720000000001 69.6008 120.46560000000001 69.9656Q121.54480000000001 70.376 122.19080000000001 70.71039999999999Q122.83680000000001 71.0448 123.30040000000001 71.64519999999999Q123.76400000000001 72.2456 123.76400000000001 73.1424Q123.76400000000001 74.5104 122.7532 75.316Q121.7424 76.1216 119.9944 76.1216Q118.8088 76.1216 117.9272 75.7416Q117.04560000000001 75.3616 116.5668 74.6776Q116.08800000000001 73.9936 116.08800000000001 73.0664Z M135.9168 65.5424V66.7128Q135.9168 66.7888 135.86360000000002 66.842Q135.81040000000002 66.8952 135.7344 66.8952H132.9376Q132.8616 66.8952 132.8616 66.9712V75.8176Q132.8616 75.8936 132.8084 75.9468Q132.7552 76.0 132.6792 76.0H131.2808Q131.2048 76.0 131.1516 75.9468Q131.0984 75.8936 131.0984 75.8176V66.9712Q131.0984 66.8952 131.0224 66.8952H128.332Q128.256 66.8952 128.2028 66.842Q128.1496 66.7888 128.1496 66.7128V65.5424Q128.1496 65.4664 128.2028 65.41319999999999Q128.256 65.36 128.332 65.36H135.7344Q135.81040000000002 65.36 135.86360000000002 65.41319999999999Q135.9168 65.4664 135.9168 65.5424Z M146.504 75.8632 144.4976 71.4856Q144.4672 71.4248 144.4064 71.4248H142.5824Q142.5064 71.4248 142.5064 71.5008V75.8176Q142.5064 75.8936 142.4532 75.9468Q142.4 76.0 142.324 76.0H140.9256Q140.8496 76.0 140.7964 75.9468Q140.7432 75.8936 140.7432 75.8176V65.5424Q140.7432 65.4664 140.7964 65.41319999999999Q140.8496 65.36 140.9256 65.36H145.1056Q146.0328 65.36 146.74720000000002 65.7476Q147.4616 66.1352 147.85680000000002 66.842Q148.252 67.5488 148.252 68.4608Q148.252 69.5096 147.7124 70.24680000000001Q147.1728 70.984 146.2152 71.2728Q146.1848 71.2728 146.1696 71.3032Q146.1544 71.3336 146.1696 71.364L148.3128 75.7872Q148.3432 75.848 148.3432 75.8784Q148.3432 76.0 148.176 76.0H146.7168Q146.5648 76.0 146.504 75.8632ZM142.5064 66.956V69.9808Q142.5064 70.0568 142.5824 70.0568H144.8624Q145.592 70.0568 146.0404 69.6236Q146.4888 69.1904 146.4888 68.476Q146.4888 67.7616 146.0404 67.32079999999999Q145.592 66.88 144.8624 66.88H142.5824Q142.5064 66.88 142.5064 66.956Z M153.16960000000003 72.5496V65.5424Q153.16960000000003 65.4664 153.2228 65.41319999999999Q153.276 65.36 153.352 65.36H154.7504Q154.8264 65.36 154.8796 65.41319999999999Q154.93280000000001 65.4664 154.93280000000001 65.5424V72.58Q154.93280000000001 73.4768 155.4952 74.0392Q156.0576 74.6016 156.9848 74.6016Q157.912 74.6016 158.4744 74.0392Q159.03680000000003 73.4768 159.03680000000003 72.58V65.5424Q159.03680000000003 65.4664 159.09000000000003 65.41319999999999Q159.1432 65.36 159.21920000000003 65.36H160.6176Q160.6936 65.36 160.7468 65.41319999999999Q160.8 65.4664 160.8 65.5424V72.5496Q160.8 73.6136 160.3288 74.4268Q159.85760000000002 75.24 158.99120000000002 75.6808Q158.12480000000002 76.1216 156.9848 76.1216Q155.86 76.1216 154.99360000000001 75.6808Q154.12720000000002 75.24 153.64840000000004 74.4268Q153.16960000000003 73.6136 153.16960000000003 72.5496Z M165.86960000000002 72.5496V68.7952Q165.86960000000002 67.7312 166.3408 66.9256Q166.812 66.12 167.6784 65.67920000000001Q168.5448 65.2384 169.68480000000002 65.2384Q170.80960000000002 65.2384 171.67600000000002 65.664Q172.54240000000001 66.0896 173.0136 66.8648Q173.4848 67.64 173.4848 68.6584Q173.4848 68.7344 173.4316 68.7876Q173.3784 68.8408 173.3024 68.8408L171.90400000000002 68.9168Q171.72160000000002 68.9168 171.72160000000002 68.7496Q171.72160000000002 67.8528 171.16680000000002 67.3056Q170.61200000000002 66.7584 169.68480000000002 66.7584Q168.75760000000002 66.7584 168.1952 67.3056Q167.6328 67.8528 167.6328 68.7496V72.6256Q167.6328 73.5072 168.1952 74.0544Q168.75760000000002 74.6016 169.68480000000002 74.6016Q170.61200000000002 74.6016 171.16680000000002 74.06200000000001Q171.72160000000002 73.5224 171.72160000000002 72.6256Q171.72160000000002 72.4584 171.90400000000002 72.4584L173.3024 72.5192Q173.3784 72.5192 173.4316 72.56479999999999Q173.4848 72.6104 173.4848 72.6712Q173.4848 73.7048 173.0136 74.4876Q172.54240000000001 75.2704 171.67600000000002 75.696Q170.80960000000002 76.1216 169.68480000000002 76.1216Q168.5448 76.1216 167.6784 75.67320000000001Q166.812 75.2248 166.3408 74.4192Q165.86960000000002 73.6136 165.86960000000002 72.5496Z M185.744 65.5424V66.7128Q185.744 66.7888 185.69080000000002 66.842Q185.63760000000002 66.8952 185.5616 66.8952H182.7648Q182.68880000000001 66.8952 182.68880000000001 66.9712V75.8176Q182.68880000000001 75.8936 182.6356 75.9468Q182.5824 76.0 182.5064 76.0H181.108Q181.032 76.0 180.9788 75.9468Q180.9256 75.8936 180.9256 75.8176V66.9712Q180.9256 66.8952 180.8496 66.8952H178.1592Q178.0832 66.8952 178.03 66.842Q177.9768 66.7888 177.9768 66.7128V65.5424Q177.9768 65.4664 178.03 65.41319999999999Q178.0832 65.36 178.1592 65.36H185.5616Q185.63760000000002 65.36 185.69080000000002 65.41319999999999Q185.744 65.4664 185.744 65.5424Z M190.5704 75.8176V65.5424Q190.5704 65.4664 190.6236 65.41319999999999Q190.67680000000001 65.36 190.7528 65.36H192.15120000000002Q192.2272 65.36 192.28040000000001 65.41319999999999Q192.33360000000002 65.4664 192.33360000000002 65.5424V75.8176Q192.33360000000002 75.8936 192.28040000000001 75.9468Q192.2272 76.0 192.15120000000002 76.0H190.7528Q190.67680000000001 76.0 190.6236 75.9468Q190.5704 75.8936 190.5704 75.8176Z M197.4944 72.4128V68.9472Q197.4944 67.8528 197.98080000000002 67.00919999999999Q198.46720000000002 66.1656 199.34120000000001 65.702Q200.2152 65.2384 201.3552 65.2384Q202.5104 65.2384 203.3844 65.702Q204.2584 66.1656 204.7448 67.00919999999999Q205.2312 67.8528 205.2312 68.9472V72.4128Q205.2312 73.5224 204.7448 74.37360000000001Q204.2584 75.2248 203.3844 75.6884Q202.5104 76.152 201.3552 76.152Q200.2152 76.152 199.3336 75.6884Q198.452 75.2248 197.97320000000002 74.37360000000001Q197.4944 73.5224 197.4944 72.4128ZM203.46800000000002 72.4736V68.932Q203.46800000000002 67.944 202.8904 67.3512Q202.3128 66.7584 201.3552 66.7584Q200.4128 66.7584 199.8352 67.3512Q199.2576 67.944 199.2576 68.932V72.4736Q199.2576 73.4464 199.8352 74.0392Q200.4128 74.632 201.3552 74.632Q202.3128 74.632 202.8904 74.0392Q203.46800000000002 73.4464 203.46800000000002 72.4736Z M216.7608 65.36H218.1592Q218.2352 65.36 218.2884 65.41319999999999Q218.3416 65.4664 218.3416 65.5424V75.8176Q218.3416 75.8936 218.2884 75.9468Q218.2352 76.0 218.1592 76.0H216.8064Q216.6544 76.0 216.5936 75.8784L212.216 68.704Q212.1856 68.6584 212.15519999999998 68.666Q212.1248 68.6736 212.1248 68.7344L212.1552 75.8176Q212.1552 75.8936 212.102 75.9468Q212.0488 76.0 211.9728 76.0H210.5744Q210.4984 76.0 210.4452 75.9468Q210.392 75.8936 210.392 75.8176V65.5424Q210.392 65.4664 210.4452 65.41319999999999Q210.4984 65.36 210.5744 65.36H211.9272Q212.0792 65.36 212.14 65.4816L216.5024 72.656Q216.5328 72.7016 216.5632 72.694Q216.5936 72.6864 216.5936 72.6256L216.5784 65.5424Q216.5784 65.4664 216.6316 65.41319999999999Q216.6848 65.36 216.7608 65.36Z  M230.0008 75.8176V65.5424Q230.0008 65.4664 230.054 65.41319999999999Q230.1072 65.36 230.1832 65.36H231.5816Q231.6576 65.36 231.7108 65.41319999999999Q231.764 65.4664 231.764 65.5424V75.8176Q231.764 75.8936 231.7108 75.9468Q231.6576 76.0 231.5816 76.0H230.1832Q230.1072 76.0 230.054 75.9468Q230.0008 75.8936 230.0008 75.8176Z M243.552 65.36H244.9504Q245.0264 65.36 245.0796 65.41319999999999Q245.1328 65.4664 245.1328 65.5424V75.8176Q245.1328 75.8936 245.0796 75.9468Q245.0264 76.0 244.9504 76.0H243.5976Q243.4456 76.0 243.3848 75.8784L239.0072 68.704Q238.9768 68.6584 238.94639999999998 68.666Q238.916 68.6736 238.916 68.7344L238.9464 75.8176Q238.9464 75.8936 238.8932 75.9468Q238.84 76.0 238.764 76.0H237.3656Q237.2896 76.0 237.2364 75.9468Q237.1832 75.8936 237.1832 75.8176V65.5424Q237.1832 65.4664 237.2364 65.41319999999999Q237.2896 65.36 237.3656 65.36H238.7184Q238.8704 65.36 238.9312 65.4816L243.2936 72.656Q243.324 72.7016 243.3544 72.694Q243.3848 72.6864 243.3848 72.6256L243.3696 65.5424Q243.3696 65.4664 243.4228 65.41319999999999Q243.476 65.36 243.552 65.36Z M250.2936 72.5496V68.7952Q250.2936 67.7312 250.76479999999998 66.9256Q251.236 66.12 252.1024 65.67920000000001Q252.9688 65.2384 254.1088 65.2384Q255.2336 65.2384 256.09999999999997 65.664Q256.96639999999996 66.0896 257.4376 66.8648Q257.9088 67.64 257.9088 68.6584Q257.9088 68.7344 257.8556 68.7876Q257.8024 68.8408 257.7264 68.8408L256.328 68.9168Q256.1456 68.9168 256.1456 68.7496Q256.1456 67.8528 255.5908 67.3056Q255.036 66.7584 254.1088 66.7584Q253.1816 66.7584 252.61919999999998 67.3056Q252.05679999999998 67.8528 252.05679999999998 68.7496V72.6256Q252.05679999999998 73.5072 252.61919999999998 74.0544Q253.1816 74.6016 254.1088 74.6016Q255.036 74.6016 255.5908 74.06200000000001Q256.1456 73.5224 256.1456 72.6256Q256.1456 72.4584 256.328 72.4584L257.7264 72.5192Q257.8024 72.5192 257.8556 72.56479999999999Q257.9088 72.6104 257.9088 72.6712Q257.9088 73.7048 257.4376 74.4876Q256.96639999999996 75.2704 256.09999999999997 75.696Q255.2336 76.1216 254.1088 76.1216Q252.9688 76.1216 252.1024 75.67320000000001Q251.236 75.2248 250.76479999999998 74.4192Q250.2936 73.6136 250.2936 72.5496Z M262.82640000000004 74.9512Q262.82640000000004 74.47999999999999 263.1304 74.17599999999999Q263.43440000000004 73.872 263.90560000000005 73.872Q264.3768 73.872 264.6732 74.17599999999999Q264.9696 74.47999999999999 264.9696 74.9512Q264.9696 75.4224 264.66560000000004 75.7264Q264.3616 76.0304 263.90560000000005 76.0304Q263.43440000000004 76.0304 263.1304 75.7264Q262.82640000000004 75.4224 262.82640000000004 74.9512Z" fill="#C9D3CF"/>
+</svg><span class="draftlogo">Draft logo concept</span></div>
+        <p style="margin:14px 0 0;max-width:340px">Flooring, roofing, siding, windows and general construction in lower Bucks County, PA.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <a href="tel:+15555550100">(555) 555-0100 [placeholder]</a><br>
+        <a href="mailto:email@example.com">email@example.com [placeholder]</a><br>
+        <span>Serving lower Bucks County, PA</span><br>
+        <span class="hic" style="margin-top:8px">PA HIC #PA195475 [confirm on discovery call]</span>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <a href="#services">Flooring</a><br><a href="#services">Roofing</a><br><a href="#services">Siding</a><br><a href="#services">Windows</a><br><a href="#services">General construction</a>
+      </div>
+    </div>
+    <div class="fine">&copy; Gregory Helfrich Construction Inc. DEMO MOCKUP, not a live site. Photos are stock placeholders; credits are in the demo folder README. Concept by Rokhal Marketing.</div>
+  </div>
+</footer>
+
+<nav class="callbar" aria-label="Quick contact">
+  <a class="c" href="tel:+15555550100">Call now</a>
+  <a class="e" href="mailto:email@example.com">Email</a>
+</nav>
+<script>
+(function(){
+var $=function(s,c){return(c||document).querySelector(s)},$$=function(s,c){return Array.prototype.slice.call((c||document).querySelectorAll(s))};
+/* header shrink + progress + active nav */
+var hdr=$('#hdr'),prog=$('#prog'),tick=false;
+function onScroll(){var y=window.scrollY||0;hdr.classList.toggle('sm',y>40);var h=document.documentElement.scrollHeight-innerHeight;prog.style.width=(h>0?Math.min(100,y/h*100):0)+'%';tick=false}
+addEventListener('scroll',function(){if(!tick){tick=true;requestAnimationFrame(onScroll)}},{passive:true});onScroll();
+/* reveal on scroll */
+var rv=$$('.rv');
+if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{rootMargin:'0px 0px -8% 0px',threshold:.08});rv.forEach(function(el){io.observe(el)})}else{rv.forEach(function(el){el.classList.add('in')})}
+var links=$$('.top nav a');
+if('IntersectionObserver' in window){var so=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){links.forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+e.target.id)})}})},{rootMargin:'-45% 0px -50% 0px'});$$('main section[id],section[id]').forEach(function(s){so.observe(s)})}
+/* tabs */
+var tabs=$$('.tab');
+function showTab(id,focus){tabs.forEach(function(t){var on=t.id===id;t.setAttribute('aria-selected',on);t.tabIndex=on?0:-1;$('#'+t.getAttribute('aria-controls')).hidden=!on;if(on&&focus)t.focus()});if(id==='t3')refreshPrep()}
+tabs.forEach(function(t,i){t.addEventListener('click',function(){showTab(t.id)});t.addEventListener('keydown',function(e){var n=e.key==='ArrowRight'?1:e.key==='ArrowLeft'?-1:0;if(n){e.preventDefault();showTab(tabs[(i+n+tabs.length)%tabs.length].id,true)}})});
+$$('[data-tab]').forEach(function(a){a.addEventListener('click',function(e){e.preventDefault();showTab(a.getAttribute('data-tab'));var t=$('#tools');var y=t.getBoundingClientRect().top+scrollY-70;scrollTo({top:y,behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth'})})});
+/* state */
+var S={rooms:[{name:'',l:'',w:''}],pick:{room:'',pets:'',moist:'',feel:''},res:[]};
+function num(v){var n=parseFloat(v);return isFinite(n)&&n>0?n:0}
+function fmt(n){return(Math.round(n*10)/10).toLocaleString('en-US',{maximumFractionDigits:1})}
+function totals(){var t=0;S.rooms.forEach(function(r){t+=num(r.l)*num(r.w)});return{t:t,w:Math.ceil(t*1.1)}}
+/* calculator */
+var box=$('#rooms');
+function drawRooms(){box.innerHTML='';S.rooms.forEach(function(r,i){var d=document.createElement('div');d.className='room';
+d.innerHTML='<div class="nm"><label for="rn'+i+'">Room name</label><input type="text" id="rn'+i+'" maxlength="40" placeholder="Room '+(i+1)+'"></div><div><label for="rl'+i+'">Length (ft)</label><input type="number" inputmode="decimal" min="0" max="200" step="any" id="rl'+i+'" placeholder="12"></div><div><label for="rw'+i+'">Width (ft)</label><input type="number" inputmode="decimal" min="0" max="200" step="any" id="rw'+i+'" placeholder="10"></div>'+(S.rooms.length>1?'<button type="button" class="rm" aria-label="Remove room '+(i+1)+'">Remove</button>':'');
+box.appendChild(d);var a=$('#rn'+i),b=$('#rl'+i),c=$('#rw'+i);a.value=r.name;b.value=r.l;c.value=r.w;
+a.oninput=function(){r.name=a.value};b.oninput=function(){r.l=b.value;calc()};c.oninput=function(){r.w=c.value;calc()};
+var rm=$('.rm',d);if(rm)rm.onclick=function(){S.rooms.splice(i,1);drawRooms();calc()}});}
+function calc(){var t=totals();$('#tot').textContent=fmt(t.t);$('#totw').textContent=fmt(t.w);}
+$('#addRoom').onclick=function(){if(S.rooms.length>=12)return;S.rooms.push({name:'',l:'',w:''});drawRooms();var n=$$('.room').pop();$('input',n).focus()};
+drawRooms();calc();
+/* picker */
+var INFO={
+lvp:['Luxury vinyl plank','Wood-look planks that are generally water-resistant and easy to care for. Often considered for kitchens, baths, basements and busy homes.'],
+hardwood:['Hardwood','Natural wood with a warm look that can often be refinished later. Generally less suited to damp areas, and it can scratch or dent.'],
+engineered:['Engineered wood','A real-wood surface over layered backing, generally more stable than solid wood when humidity changes. Ask whether a product suits the room you have in mind.'],
+tile:['Tile (ceramic or porcelain)','Hard and water-resistant, and a common choice for baths, entries and kitchens. It is hard and cool underfoot.'],
+laminate:['Laminate','A wood-look surface that resists wear and scratches well. Generally sensitive to standing water, so ask about moisture-rated products.']};
+var W={
+room:{'Kitchen':{lvp:2,tile:2,engineered:1,hardwood:1,laminate:0},'Bathroom':{tile:3,lvp:2,hardwood:-9,engineered:-4,laminate:-3},'Basement':{lvp:3,tile:2,laminate:-1,hardwood:-9,engineered:-1},'Living or dining room':{hardwood:2,engineered:2,lvp:2,laminate:1,tile:0},'Bedroom':{hardwood:2,engineered:2,lvp:1,laminate:1,tile:-1},'Entry or mudroom':{tile:2,lvp:2,engineered:1,laminate:0,hardwood:0},'Other':{}},
+pets:{'Yes':{lvp:2,tile:2,laminate:1,hardwood:-1},'No':{hardwood:1,engineered:1}},
+moist:{'Dry':{hardwood:1,engineered:1},'Sometimes damp':{lvp:2,tile:2,laminate:-1,hardwood:-2,engineered:-1},'Often wet or below ground':{tile:3,lvp:3,laminate:-4,hardwood:-9,engineered:-3}},
+feel:{'Warm, natural look':{hardwood:3,engineered:3,lvp:1,laminate:1,tile:-1},'Easiest to keep clean':{lvp:3,tile:2,laminate:1},'Hard-wearing':{tile:2,lvp:2,laminate:2},'No strong preference':{}}};
+var out=$('#picksOut');
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function pickCalc(){var p=S.pick;if(!(p.room&&p.pets&&p.moist&&p.feel)){S.res=[];out.innerHTML='<p class="fine2">Answer all four questions to see suggestions.</p>';return}
+var sc={lvp:0,hardwood:0,engineered:0,tile:0,laminate:0};['room','pets','moist','feel'].forEach(function(k){var w=W[k][p[k]]||{};for(var c in w)sc[c]+=w[c]});
+var arr=Object.keys(sc).map(function(k){return{k:k,s:sc[k]}}).sort(function(a,b){return b.s-a.s});
+var good=arr.filter(function(x){return x.s>0}).slice(0,3),ask=arr.filter(function(x){return x.s<=-3});
+if(!good.length)good=arr.slice(0,2);
+S.res=good.map(function(x){return INFO[x.k][0]});S.ask=ask.map(function(x){return INFO[x.k][0]});
+var h='<div class="picks">'+good.map(function(x,i){return'<div class="pick"><span class="tg">'+(i===0?'Worth asking about first':'Worth asking about')+'</span><b>'+esc(INFO[x.k][0])+'</b><p>'+esc(INFO[x.k][1])+'</p></div>'}).join('')+'</div>';
+if(ask.length){h+='<div class="picks" style="margin-top:12px">'+ask.map(function(x){var n=x.k==='hardwood'?'Solid hardwood is generally not recommended for areas that are often wet or below ground, so ask carefully.':'Ask carefully whether this suits your room\'s moisture and conditions.';return'<div class="pick ask"><span class="tg">Ask carefully</span><b>'+esc(INFO[x.k][0])+'</b><p>'+esc(n)+'</p></div>'}).join('')+'</div>'}
+h+='<p class="fine2">General, widely used guidance only. It is not a recommendation or a guarantee, and it says nothing about what any installer offers. Subfloor, moisture and the specific product all matter, so ask about them at your estimate.</p>';
+out.innerHTML=h}
+$$('.opts input').forEach(function(i){i.addEventListener('change',function(){S.pick[i.name]=i.value;pickCalc()})});
+/* checklist + summary */
+var chk=$$('.chk input');
+function refreshPrep(){var t=totals();var meas=$('[data-k=meas]'),type=$('[data-k=type]');
+var done=chk.filter(function(c){return c.checked}).length;$('#pb').style.width=(done/chk.length*100)+'%'}
+chk.forEach(function(c){c.addEventListener('change',refreshPrep)});
+function summary(){var t=totals(),L=[];
+L.push('PROJECT SUMMARY (made with the demo planning tools; not sent anywhere)');L.push('');L.push('Service: Flooring');L.push('');L.push('Rooms:');
+var any=false;S.rooms.forEach(function(r,i){var a=num(r.l),b=num(r.w);if(a&&b){any=true;L.push('- '+(r.name.trim()||'Room '+(i+1))+': '+fmt(a)+' x '+fmt(b)+' ft = '+fmt(a*b)+' sq ft')}});
+if(!any)L.push('- (no rooms measured yet)');
+L.push('Total: '+fmt(t.t)+' sq ft');L.push('With 10% extra for cuts and waste: about '+fmt(t.w)+' sq ft');L.push('');
+var p=S.pick;
+if(S.res.length){L.push('Floor types I want to ask about: '+S.res.join(', '));L.push('(Room: '+p.room+'; pets or kids: '+p.pets+'; moisture: '+p.moist+'; feel: '+p.feel+')')}else L.push('Floor types I want to ask about: (picker not completed)');
+L.push('');var tl=$('#timeline').value.trim();L.push('Timeline: '+(tl||'(not set)'));
+var names={photos:'Photos of the space',meas:'Rough measurements',type:'Floor type to ask about',time:'Timeline in mind',qs:'Questions written down'};
+L.push('Ready: '+chk.filter(function(c){return c.checked}).map(function(c){return names[c.getAttribute('data-k')]}).join(', ')||'');
+var nt=$('#notes').value.trim();L.push('');L.push('Questions or notes: '+(nt||'(none)'));
+return L.join('\n').replace(/Ready: $/m,'Ready: (nothing ticked yet)')}
+var sumEl=$('#sum'),toast=$('#toast');
+function build(){sumEl.value=summary();return sumEl.value}
+$('#buildSum').onclick=function(){build();toast.textContent='Summary built. Review it below, then copy.'};
+$('#copySum').onclick=function(){var txt=build();
+function ok(){toast.textContent='Copied. Paste it into your email, a text, or the estimate form.'}
+function fb(){sumEl.removeAttribute('readonly');sumEl.focus();sumEl.select();try{document.execCommand('copy')?ok():toast.textContent='Select the text above and copy it.'}catch(e){toast.textContent='Select the text above and copy it.'}sumEl.setAttribute('readonly','')}
+if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(txt).then(ok,fb)}else fb()};
+/* form paste */
+$('#paste').onclick=function(){$('#m').value=summary();$('#s').value='Flooring';var m=$('#m');m.style.minHeight='220px'};
+})();
+</script>
+</body>
+</html>
